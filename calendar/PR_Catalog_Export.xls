@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><link id="pageCss" rel="Stylesheet" type="text/css" /><title>
+	Program Urls
+</title></head>
+<body>
+    <form name="form1" method="post" action="/Members/PR/ProgramUrls_Export.aspx?exportType=excel&amp;siteId=475&amp;siteName=JCC%20North%20Shore&amp;semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&amp;semesterName=Summer%202013&amp;categoryGuid=00000000-0000-0000-0000-000000000000&amp;categoryName=All%20Categories&amp;courseGuid=00000000-0000-0000-0000-000000000000&amp;courseName=All%20Courses" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIwNDE2MDc5NTQPZBYCAgQQZGQWBgIBDw8WAh4EVGV4dAURU2VsZWN0ZWQgQ3JpdGVyaWFkZAIDDw8WAh8ABWU8Yj5TaXRlOjwvYj4gSkNDIE5vcnRoIFNob3JlOyA8Yj5TZXNzaW9uOjwvYj4gU3VtbWVyIDIwMTM7IDxiPkNhdGVnb3J5OjwvYj4gQWxsOyA8Yj5Db3Vyc2U6PC9iPiBBbGw7IGRkAgUPPCsAEQIADxYGHg1FbXB0eURhdGFUZXh0BRFObyByZWNvcmRzIGZvdW5kLh4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAIPZAEQFgAWABYAFgJmD2QWImYPZBYQZg9kFgICAQ8PFgIfAAUJU2l0ZSBOYW1lZGQCAQ9kFgICAQ8PFgIfAAUHU2Vzc2lvbmRkAgIPZBYCAgEPDxYCHwAFCENhdGVnb3J5ZGQCAw9kFgICAQ8PFgIfAAUGQ291cnNlZGQCBA9kFgICAQ8PFgIfAAUMUHJvZ3JhbSBOYW1lZGQCBQ9kFgICAQ8PFgIfAAULUHJvZ3JhbSBVcmxkZAIGD2QWAgIBDw8WAh8ABQ1Qcm9ncmFtcyBMaXN0ZGQCBw9kFgICAQ8PFgIfAAULQ291cnNlIExpc3RkZAIBD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFF0NvbWJvIFN0YXJmaXNoL1NlYWhvcnNlZAIED2QWAgIBDxYCHwAFF0NvbWJvIFN0YXJmaXNoL1NlYWhvcnNlZAIFD2QWAgIBDxYCHwAF/wFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1EZXRhaWxzLmFzcHg/c2NoZWR1bGVHdWlkPTkzNmQ3MWMyLTdjYTAtNDg5Zi04OTAwLWU0ZmFmMzQ4Y2U1OSZDb3Vyc2VHdWlkPTM0MjJlYjM3LTQxOTctNDQ2OC1iMzE4LWY1MDFmOWIxZDY5YiZzZW1lc3Rlckd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGVnb3J5R3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgYPZBYCAgEPFgIfAAXcAWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9zZWFyY2hieT1jb3Vyc2Umc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzEmY291cnNlZ3VpZD0zNDIyZWIzNy00MTk3LTQ0NjgtYjMxOC1mNTAxZjliMWQ2OWJkAgcPZBYCAgEPFgIfAAW+AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9mZXRjaHByZ209ZmFsc2Umc2VhcmNoYnk9Y2F0ZWdvcnkmc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgIPZBYQZg9kFgICAQ8WAh8ABQ9KQ0MgTm9ydGggU2hvcmVkAgEPZBYCAgEPFgIfAAULU3VtbWVyIDIwMTNkAgIPZBYCAgEPFgIfAAUIQXF1YXRpY3NkAgMPZBYCAgEPFgIfAAUXQ29tYm8gU3RhcmZpc2gvU2VhaG9yc2VkAgQPZBYCAgEPFgIfAAUXQ29tYm8gU3RhcmZpc2gvU2VhaG9yc2VkAgUPZBYCAgEPFgIfAAX/AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbURldGFpbHMuYXNweD9zY2hlZHVsZUd1aWQ9YmFmZTA3YTAtNGM3OC00MmEzLWEwYjktZDExYWUzOGI0NDRhJkNvdXJzZUd1aWQ9MzQyMmViMzctNDE5Ny00NDY4LWIzMTgtZjUwMWY5YjFkNjliJnNlbWVzdGVyR3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0ZWdvcnlHdWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCBg9kFgICAQ8WAh8ABdwBaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P3NlYXJjaGJ5PWNvdXJzZSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMSZjb3Vyc2VndWlkPTM0MjJlYjM3LTQxOTctNDQ2OC1iMzE4LWY1MDFmOWIxZDY5YmQCBw9kFgICAQ8WAh8ABb4BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P2ZldGNocHJnbT1mYWxzZSZzZWFyY2hieT1jYXRlZ29yeSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCAw9kFhBmD2QWAgIBDxYCHwAFD0pDQyBOb3J0aCBTaG9yZWQCAQ9kFgICAQ8WAh8ABQtTdW1tZXIgMjAxM2QCAg9kFgICAQ8WAh8ABQhBcXVhdGljc2QCAw9kFgICAQ8WAh8ABRdDb21ibyBTdGFyZmlzaC9TZWFob3JzZWQCBA9kFgICAQ8WAh8ABRdDb21ibyBTdGFyZmlzaC9TZWFob3JzZWQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD0zMjhhYjE5OC1jMmVlLTQ1YWYtOTkwOC0yMjZiYmZkYzEwODAmQ291cnNlR3VpZD0zNDIyZWIzNy00MTk3LTQ0NjgtYjMxOC1mNTAxZjliMWQ2OWImc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9MzQyMmViMzctNDE5Ny00NDY4LWIzMTgtZjUwMWY5YjFkNjliZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIED2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFF0NvbWJvIFN0YXJmaXNoL1NlYWhvcnNlZAIED2QWAgIBDxYCHwAFF0NvbWJvIFN0YXJmaXNoL1NlYWhvcnNlZAIFD2QWAgIBDxYCHwAF/wFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1EZXRhaWxzLmFzcHg/c2NoZWR1bGVHdWlkPWQ1NjIwOThhLTI2OGUtNGJlNS04MzU2LTAyYTI4MWUwYWMyNyZDb3Vyc2VHdWlkPTM0MjJlYjM3LTQxOTctNDQ2OC1iMzE4LWY1MDFmOWIxZDY5YiZzZW1lc3Rlckd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGVnb3J5R3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgYPZBYCAgEPFgIfAAXcAWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9zZWFyY2hieT1jb3Vyc2Umc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzEmY291cnNlZ3VpZD0zNDIyZWIzNy00MTk3LTQ0NjgtYjMxOC1mNTAxZjliMWQ2OWJkAgcPZBYCAgEPFgIfAAW+AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9mZXRjaHByZ209ZmFsc2Umc2VhcmNoYnk9Y2F0ZWdvcnkmc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgUPZBYQZg9kFgICAQ8WAh8ABQ9KQ0MgTm9ydGggU2hvcmVkAgEPZBYCAgEPFgIfAAULU3VtbWVyIDIwMTNkAgIPZBYCAgEPFgIfAAUIQXF1YXRpY3NkAgMPZBYCAgEPFgIfAAUXQ29tYm8gU3RhcmZpc2gvU2VhaG9yc2VkAgQPZBYCAgEPFgIfAAUXQ29tYm8gU3RhcmZpc2gvU2VhaG9yc2VkAgUPZBYCAgEPFgIfAAX/AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbURldGFpbHMuYXNweD9zY2hlZHVsZUd1aWQ9MTUzMjkxNTctNzQ0Yi00ZWU2LWFhZWEtMDNhYTUxMmUxM2YxJkNvdXJzZUd1aWQ9MzQyMmViMzctNDE5Ny00NDY4LWIzMTgtZjUwMWY5YjFkNjliJnNlbWVzdGVyR3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0ZWdvcnlHdWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCBg9kFgICAQ8WAh8ABdwBaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P3NlYXJjaGJ5PWNvdXJzZSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMSZjb3Vyc2VndWlkPTM0MjJlYjM3LTQxOTctNDQ2OC1iMzE4LWY1MDFmOWIxZDY5YmQCBw9kFgICAQ8WAh8ABb4BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P2ZldGNocHJnbT1mYWxzZSZzZWFyY2hieT1jYXRlZ29yeSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCBg9kFhBmD2QWAgIBDxYCHwAFD0pDQyBOb3J0aCBTaG9yZWQCAQ9kFgICAQ8WAh8ABQtTdW1tZXIgMjAxM2QCAg9kFgICAQ8WAh8ABQhBcXVhdGljc2QCAw9kFgICAQ8WAh8ABRdDb21ibyBTdGFyZmlzaC9TZWFob3JzZWQCBA9kFgICAQ8WAh8ABRdDb21ibyBTdGFyZmlzaC9TZWFob3JzZWQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD05OGQ0YTE1NC05ZThiLTRjODUtODUyYi0zYTAyNDk2M2Y2ZmQmQ291cnNlR3VpZD0zNDIyZWIzNy00MTk3LTQ0NjgtYjMxOC1mNTAxZjliMWQ2OWImc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9MzQyMmViMzctNDE5Ny00NDY4LWIzMTgtZjUwMWY5YjFkNjliZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIHD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFDFBhcmVudCAmIFRvdGQCBA9kFgICAQ8WAh8ABQxQYXJlbnQgJiBUb3RkAgUPZBYCAgEPFgIfAAX/AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbURldGFpbHMuYXNweD9zY2hlZHVsZUd1aWQ9YTFkNTAxNmYtNDczMS00OWE0LWI3NGEtYWZiYjg2N2E3NGVlJkNvdXJzZUd1aWQ9MWU2OGQ5YzEtYWJlZi00NDZiLThlNWQtYThiNzRmYWNkZmZmJnNlbWVzdGVyR3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0ZWdvcnlHdWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCBg9kFgICAQ8WAh8ABdwBaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P3NlYXJjaGJ5PWNvdXJzZSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMSZjb3Vyc2VndWlkPTFlNjhkOWMxLWFiZWYtNDQ2Yi04ZTVkLWE4Yjc0ZmFjZGZmZmQCBw9kFgICAQ8WAh8ABb4BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtcy5hc3B4P2ZldGNocHJnbT1mYWxzZSZzZWFyY2hieT1jYXRlZ29yeSZzaXRlaWQ9NDc1JnNlc3Npb25ndWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRndWlkPTEyZmZhNmZiLTQ5NWYtNDg4My05YWJhLTJhYTM3OWQ2MWJjMWQCCA9kFhBmD2QWAgIBDxYCHwAFD0pDQyBOb3J0aCBTaG9yZWQCAQ9kFgICAQ8WAh8ABQtTdW1tZXIgMjAxM2QCAg9kFgICAQ8WAh8ABQhBcXVhdGljc2QCAw9kFgICAQ8WAh8ABQxQYXJlbnQgJiBUb3RkAgQPZBYCAgEPFgIfAAUMUGFyZW50ICYgVG90ZAIFD2QWAgIBDxYCHwAF/wFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1EZXRhaWxzLmFzcHg/c2NoZWR1bGVHdWlkPTE4ODljNTM3LTA2NzUtNDFkZi1hNzM5LWJmNTkwOGUyOTQyZSZDb3Vyc2VHdWlkPTFlNjhkOWMxLWFiZWYtNDQ2Yi04ZTVkLWE4Yjc0ZmFjZGZmZiZzZW1lc3Rlckd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGVnb3J5R3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgYPZBYCAgEPFgIfAAXcAWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9zZWFyY2hieT1jb3Vyc2Umc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzEmY291cnNlZ3VpZD0xZTY4ZDljMS1hYmVmLTQ0NmItOGU1ZC1hOGI3NGZhY2RmZmZkAgcPZBYCAgEPFgIfAAW+AWh0dHBzOi8vbWVtYmVycy5qY2Nucy5vcmcvL01lbWJlcnMvUFIvUHJvZ3JhbXMuYXNweD9mZXRjaHByZ209ZmFsc2Umc2VhcmNoYnk9Y2F0ZWdvcnkmc2l0ZWlkPTQ3NSZzZXNzaW9uZ3VpZD1lMTQ1MGExNC02YzBmLTQ5MGYtYWIxNi00MjgyM2M5NTQzZDEmY2F0Z3VpZD0xMmZmYTZmYi00OTVmLTQ4ODMtOWFiYS0yYWEzNzlkNjFiYzFkAgkPZBYQZg9kFgICAQ8WAh8ABQ9KQ0MgTm9ydGggU2hvcmVkAgEPZBYCAgEPFgIfAAULU3VtbWVyIDIwMTNkAgIPZBYCAgEPFgIfAAUIQXF1YXRpY3NkAgMPZBYCAgEPFgIfAAUMUGFyZW50ICYgVG90ZAIED2QWAgIBDxYCHwAFDFBhcmVudCAmIFRvdGQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD0xZjM5ZTA4Zi1jYjBjLTQ3MDYtODM0My0wNjQ2NmQwOGU5ZjMmQ291cnNlR3VpZD0xZTY4ZDljMS1hYmVmLTQ0NmItOGU1ZC1hOGI3NGZhY2RmZmYmc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9MWU2OGQ5YzEtYWJlZi00NDZiLThlNWQtYThiNzRmYWNkZmZmZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIKD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFNlYWhvcnNlIExldmVsIDJkAgQPZBYCAgEPFgIfAAUQU2VhaG9yc2UgTGV2ZWwgMmQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD1mZWMyODEwYi1hZmRkLTQwZDMtOTZmMy03ODc0ODI0NjE0MmUmQ291cnNlR3VpZD05NmJjNWM3OS04YTc4LTRjOTktODI4ZC1mYTUyN2I4YmQwZjImc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9OTZiYzVjNzktOGE3OC00Yzk5LTgyOGQtZmE1MjdiOGJkMGYyZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAILD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFNlYWhvcnNlIExldmVsIDJkAgQPZBYCAgEPFgIfAAUQU2VhaG9yc2UgTGV2ZWwgMmQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD01YjQ3NzE3Yi02ZTRmLTRlZTgtYmQ3NC04OWQzOTI3ODhhY2EmQ291cnNlR3VpZD05NmJjNWM3OS04YTc4LTRjOTktODI4ZC1mYTUyN2I4YmQwZjImc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9OTZiYzVjNzktOGE3OC00Yzk5LTgyOGQtZmE1MjdiOGJkMGYyZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIMD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFNlYWhvcnNlIExldmVsIDJkAgQPZBYCAgEPFgIfAAUQU2VhaG9yc2UgTGV2ZWwgMmQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD03MWZhOWVlYi04NDIzLTQ5OTMtOTE2OS1jNDg1OTRhMDA5OWImQ291cnNlR3VpZD05NmJjNWM3OS04YTc4LTRjOTktODI4ZC1mYTUyN2I4YmQwZjImc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9OTZiYzVjNzktOGE3OC00Yzk5LTgyOGQtZmE1MjdiOGJkMGYyZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIND2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFN0YXJmaXNoIExldmVsIDFkAgQPZBYCAgEPFgIfAAUQU3RhcmZpc2ggTGV2ZWwgMWQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD1lNTM0M2IyZS1lMzAxLTRjZTItOGFlNS1kYjNkMTcyNmJiZTImQ291cnNlR3VpZD1jMTYzYmU3Yi1lYWI1LTRjNTMtYWQwYi1hNjMxMzk2NWI0YzQmc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9YzE2M2JlN2ItZWFiNS00YzUzLWFkMGItYTYzMTM5NjViNGM0ZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIOD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFN0YXJmaXNoIExldmVsIDFkAgQPZBYCAgEPFgIfAAUQU3RhcmZpc2ggTGV2ZWwgMWQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD0xMWYxZjg2ZC1jZmJlLTRkMjctYmMxOC1hNzc4NDg2ODM0NzImQ291cnNlR3VpZD1jMTYzYmU3Yi1lYWI1LTRjNTMtYWQwYi1hNjMxMzk2NWI0YzQmc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9YzE2M2JlN2ItZWFiNS00YzUzLWFkMGItYTYzMTM5NjViNGM0ZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIPD2QWEGYPZBYCAgEPFgIfAAUPSkNDIE5vcnRoIFNob3JlZAIBD2QWAgIBDxYCHwAFC1N1bW1lciAyMDEzZAICD2QWAgIBDxYCHwAFCEFxdWF0aWNzZAIDD2QWAgIBDxYCHwAFEFN0YXJmaXNoIExldmVsIDFkAgQPZBYCAgEPFgIfAAUQU3RhcmZpc2ggTGV2ZWwgMWQCBQ9kFgICAQ8WAh8ABf8BaHR0cHM6Ly9tZW1iZXJzLmpjY25zLm9yZy8vTWVtYmVycy9QUi9Qcm9ncmFtRGV0YWlscy5hc3B4P3NjaGVkdWxlR3VpZD05ZDYyYWM0Yi00OWE3LTQ5NTQtYjkzNS0wNmJlNDVjNzE1NzkmQ291cnNlR3VpZD1jMTYzYmU3Yi1lYWI1LTRjNTMtYWQwYi1hNjMxMzk2NWI0YzQmc2VtZXN0ZXJHdWlkPWUxNDUwYTE0LTZjMGYtNDkwZi1hYjE2LTQyODIzYzk1NDNkMSZjYXRlZ29yeUd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIGD2QWAgIBDxYCHwAF3AFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/c2VhcmNoYnk9Y291cnNlJnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxJmNvdXJzZWd1aWQ9YzE2M2JlN2ItZWFiNS00YzUzLWFkMGItYTYzMTM5NjViNGM0ZAIHD2QWAgIBDxYCHwAFvgFodHRwczovL21lbWJlcnMuamNjbnMub3JnLy9NZW1iZXJzL1BSL1Byb2dyYW1zLmFzcHg/ZmV0Y2hwcmdtPWZhbHNlJnNlYXJjaGJ5PWNhdGVnb3J5JnNpdGVpZD00NzUmc2Vzc2lvbmd1aWQ9ZTE0NTBhMTQtNmMwZi00OTBmLWFiMTYtNDI4MjNjOTU0M2QxJmNhdGd1aWQ9MTJmZmE2ZmItNDk1Zi00ODgzLTlhYmEtMmFhMzc5ZDYxYmMxZAIQDw8WAh4HVmlzaWJsZWhkZBgBBQ1ndlByb2dyYW1VcmxzDzwrAAwBCAIBZBptWh3IkzEFexvwwF0xhXBmhYcEy9h4jxRwV1otUXUe" />
+</div>
+
+    <table cellpadding="1" cellspacing="2" style="background-color: #FFFFFF; color: Black;"
+        width="100%">
+        <tr>
+            <td>
+                <b>
+                    <span id="olslblSelectedcrit" class=" ClsInPlaceEditor" key="L_SELECTED_CRITERIA">Selected Criteria</span>:</b>
+                    <span id="lblCriteria"><b>Site:</b> JCC North Shore; <b>Session:</b> Summer 2013; <b>Category:</b> All; <b>Course:</b> All; </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+	<table class="SmallTableBorder" cellspacing="0" cellpadding="2" rules="all" border="1" id="gvProgramUrls" style="width:100%;border-collapse:collapse;">
+		<tr class="DgHeader GridHeaderStyle">
+			<th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblSite" class=" ClsInPlaceEditor" key="L_SITE_NAME">Site Name</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblSession" class=" ClsInPlaceEditor" key="L_SESSION">Session</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblCategory" class=" ClsInPlaceEditor" key="L_CATEGORY">Category</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblCourse" class=" ClsInPlaceEditor" key="L_COURSE">Course</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblProgramName" class=" ClsInPlaceEditor" key="L_PROGRAM_NAME">Program Name</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblProgramUrl" class=" ClsInPlaceEditor" key="L_PROGRAM_URL">Program Url</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblProgramList" class=" ClsInPlaceEditor" key="L_PROGRAM_LIST">Programs List</span>
+                            </th><th scope="col">
+                                <span id="gvProgramUrls_ctl01_olslblCourseList" class=" ClsInPlaceEditor" key="L_COURSE_LIST">Course List</span>
+                            </th>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=936d71c2-7ca0-489f-8900-e4faf348ce59&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=bafe07a0-4c78-42a3-a0b9-d11ae38b444a&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=328ab198-c2ee-45af-9908-226bbfdc1080&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=d562098a-268e-4be5-8356-02a281e0ac27&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=15329157-744b-4ee6-aaea-03aa512e13f1&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="middle">
+                                Combo Starfish/Seahorse
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=98d4a154-9e8b-4c85-852b-3a024963f6fd&CourseGuid=3422eb37-4197-4468-b318-f501f9b1d69b&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=3422eb37-4197-4468-b318-f501f9b1d69b
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=a1d5016f-4731-49a4-b74a-afbb867a74ee&CourseGuid=1e68d9c1-abef-446b-8e5d-a8b74facdfff&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=1e68d9c1-abef-446b-8e5d-a8b74facdfff
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=1889c537-0675-41df-a739-bf5908e2942e&CourseGuid=1e68d9c1-abef-446b-8e5d-a8b74facdfff&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=1e68d9c1-abef-446b-8e5d-a8b74facdfff
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="middle">
+                                Parent & Tot
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=1f39e08f-cb0c-4706-8343-06466d08e9f3&CourseGuid=1e68d9c1-abef-446b-8e5d-a8b74facdfff&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=1e68d9c1-abef-446b-8e5d-a8b74facdfff
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=fec2810b-afdd-40d3-96f3-78748246142e&CourseGuid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=5b47717b-6e4f-4ee8-bd74-89d392788aca&CourseGuid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="middle">
+                                Seahorse Level 2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=71fa9eeb-8423-4993-9169-c48594a0099b&CourseGuid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=96bc5c79-8a78-4c99-828d-fa527b8bd0f2
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=e5343b2e-e301-4ce2-8ae5-db3d1726bbe2&CourseGuid=c163be7b-eab5-4c53-ad0b-a6313965b4c4&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=c163be7b-eab5-4c53-ad0b-a6313965b4c4
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgTextAlt" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=11f1f86d-cfbe-4d27-bc18-a77848683472&CourseGuid=c163be7b-eab5-4c53-ad0b-a6313965b4c4&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=c163be7b-eab5-4c53-ad0b-a6313965b4c4
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr><tr class="DgText" align="center" valign="middle">
+			<td align="left" valign="middle">
+                                JCC North Shore
+                            </td><td align="left" valign="middle">
+                                Summer 2013
+                            </td><td align="left" valign="middle">
+                                Aquatics
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="middle">
+                                Starfish Level 1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/ProgramDetails.aspx?scheduleGuid=9d62ac4b-49a7-4954-b935-06be45c71579&CourseGuid=c163be7b-eab5-4c53-ad0b-a6313965b4c4&semesterGuid=e1450a14-6c0f-490f-ab16-42823c9543d1&categoryGuid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?searchby=course&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1&courseguid=c163be7b-eab5-4c53-ad0b-a6313965b4c4
+                            </td><td align="left" valign="top" style="width:100px;">
+                                https://members.jccns.org//Members/PR/Programs.aspx?fetchprgm=false&searchby=category&siteid=475&sessionguid=e1450a14-6c0f-490f-ab16-42823c9543d1&catguid=12ffa6fb-495f-4883-9aba-2aa379d61bc1
+                            </td>
+		</tr>
+	</table>
+</div>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

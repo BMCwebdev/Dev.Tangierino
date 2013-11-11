@@ -1,0 +1,235 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+
+/* #Base 960 Grid
+================================================== */
+
+    .container {
+		position: relative;
+		width: 940px;
+		margin: 0 auto;
+		padding: 0;
+		/*overflow:hidden;*/
+	}
+    .container2 {
+		position: relative;
+		width: 940px;
+		margin: 0 auto;
+		padding: 0;
+		/*overflow:hidden;*/
+	}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container  {
+			width: 768px;
+		}
+        .container2  {
+			width: 768px;
+		}
+        .element {
+			width:170px;
+			height:170px;
+			-moz-border-radius:87px;
+			-webkit-border-radius:87px;
+			border-radius:87px;
+		}
+		.zoom, .element img {
+			-moz-border-radius:87px;
+			-webkit-border-radius:87px;
+			border-radius:87px;
+		}
+		.team {	width:173px;
+		}
+		.send_mess {margin:17px 0 20px 0;
+		}
+		#nav li a {	width:80px;
+		}
+		#nav li.current a {	background:url(../images/menu_768_2.png) no-repeat left top;
+		}
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px;
+		}
+        .container2 { width: 300px;
+		}
+
+		.element {
+			width:133px;
+			height:133px;
+			-moz-border-radius:68px;
+			-webkit-border-radius:68px;
+			border-radius:68px;
+		}
+		.zoom, .element img {
+			-moz-border-radius:68px;
+			-webkit-border-radius:68px;
+			border-radius:68px;
+		}
+		.col54_percent, .col42_percent {
+			width:100%;
+			float:none !important;
+		}
+		.team {	width:136px;
+		}
+		.col50_percent {
+			width:100%;
+			float:none !important;
+		}
+		.send_mess {margin:17px 0 20px 0;
+		}
+
+		#nav {padding:5px 0 0 0;
+		}
+		#nav li {
+			float:none;
+			padding-bottom:2px;
+		}
+		#nav li a {
+			line-height:16px;
+			float:none;
+			text-align:right;
+			line-height:14px;
+			height:auto;
+			width:auto;
+			font-size:11px;
+		}
+		#nav li.current a {
+			background: none;
+			color:#45ae4f;
+		}
+		#logo a {font-size:35px;
+		}
+
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px;
+		}
+        .container2 { width: 420px;
+		}
+		.element {
+			width:193px;
+			height:193px;
+			-moz-border-radius:95px;
+			-webkit-border-radius:95px;
+			border-radius:95px;
+		}
+		.zoom, .element img {
+			-moz-border-radius:95px;
+			-webkit-border-radius:95px;
+			border-radius:95px;
+		}
+		.team {	width:196px;
+		}
+		.send_mess {margin:17px 0 20px 116px;
+		}
+		#nav {padding:5px 0 0 0;
+		}
+		#nav li {
+			float:none;
+			padding-bottom:2px;
+		}
+		#nav li a {
+			line-height:16px;
+			float:none;
+			text-align:right;
+			line-height:14px;
+			height:auto;
+			width:auto;
+			font-size:11px;
+		}
+		#nav li.current a {
+			background: none;
+			color:#45ae4f;
+		}
+
+    }
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+		.container { width: 300px;
+			}
+		.container2 { width: 300px;
+			}
+
+		.element {
+			width:133px;
+			height:133px;
+			-moz-border-radius:68px;
+			-webkit-border-radius:68px;
+			border-radius:68px;
+		}
+		.zoom, .element img {
+			-moz-border-radius:68px;
+			-webkit-border-radius:68px;
+			border-radius:68px;
+		}
+		.col54_percent, .col42_percent {
+			width:100%;
+			float:none !important;
+		}
+		.team {	width:136px;
+		}
+		.col50_percent {
+			width:100%;
+			float:none !important;
+		}
+		.send_mess {margin:17px 0 20px 0;
+		}
+		#nav {padding:5px 0 0 0;
+		}
+		#nav li {
+			float:none;
+			padding-bottom:2px;
+		}
+		#nav li a {
+			line-height:16px;
+			float:none;
+			text-align:right;
+			line-height:14px;
+			height:auto;
+			width:auto;
+			font-size:11px;
+		}
+		#nav li.current a {
+			background: none;
+			color:#45ae4f;
+		}
+		#logo a {font-size:35px;
+		}
+
+}
