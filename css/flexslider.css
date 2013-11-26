@@ -92,7 +92,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	display:block;
 	width:10px;
 	height:11px;
-	background-image:url(../images/bullet3.png);
+/* 	background-image:url(../images/bullet3.png); */
 	background-position:-12px 0;
 	background-repeat:no-repeat;
 	text-indent:-9999px;
