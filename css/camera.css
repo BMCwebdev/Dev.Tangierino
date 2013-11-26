@@ -259,9 +259,11 @@
 		0px 1px 0px rgba(255,255,255,1),
 		inset 0px 1px 1px rgba(0,0,0,0.2);
 }
+/*
 .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent, .camera_wrap .camera_pag .camera_pag_ul li:hover {
 	background:url(../images/pag-hover.png) 0 0 no-repeat;
 }
+*/
 .camera_pag_ul li img {
 	display: none;
 	position: absolute;
