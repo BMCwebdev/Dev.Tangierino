@@ -853,6 +853,8 @@ margin-left: 0px;
 	line-height:16px;
 	font-size:11px;
 	color:#fff;
+	bottom: 0px;
+	width: 100%;
 }
 .container {position: relative;
 }
