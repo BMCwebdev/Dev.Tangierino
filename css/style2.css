@@ -136,6 +136,7 @@ p {
 .fright { float:right;
 }
 .fleft { float:left;
+	width:100%;
 }
 
 .wrapper {width:100%;
@@ -143,15 +144,16 @@ p {
 #header {
 /*     BRIAN REMOVED IMAGE BACKGROUND REPLACED WITH BLACK FOR NAVBAR - url(../images/header_bg.png) */
 	background:black repeat-x left top;
-	height:102px;
+	height:auto;
 	position:fixed;
 	left:0;
 	top:0;
 	width:100%;
 	z-index:100;
+	padding-bottom:5px;
 }
 #logo {
-	float:left;
+    text-align: center;
 	padding:17px 7px 0 0;
 }
 #logo a {
@@ -1034,7 +1036,7 @@ background-image: -webkit-gradient(
 #nav li {float:left;
 }
 #nav li a {
-	font-size:12px;
+	font-size:14px;
 	color:#fff;
 	line-height:36px;
 	display:block;
@@ -1049,7 +1051,7 @@ background-image: -webkit-gradient(
 }
 #nav li.current a {	background:url(../images/buttondown.png) no-repeat left top;
 	font-family: 'Average Sans', sans-serif;
-	font-size:12px;
+	font-size:14px;
 	text-decoration: none;
 /* 	color: #e27f4a; */
 /* 	switch back to none? */
@@ -1061,10 +1063,16 @@ background-image: -webkit-gradient(
 	outline: 0 none;
 	color: #fdb10d;
 	text-shadow: 1px 1px 8px #ffeccc, 1px -1px 8px #ffffff;
+	width:130px;
+	height: 50px;
+	background-size: 135px 50px;
+	padding-right:5px;
+	padding-top:5px;
+
 }
 #nav #gitcardnav li.current a {	background:url(../images/buttondown2.png) no-repeat left top;
 	font-family: 'Average Sans', sans-serif;
-	font-size:12px;
+	font-size:14px;
 	text-decoration: none;
 /* 	color: #e27f4a; */
 /* 	switch back to none? */
@@ -1076,15 +1084,20 @@ background-image: -webkit-gradient(
 	outline: 0 none;
 	color: #fdb10d;
 	text-shadow: 1px 1px 8px #ffeccc, 1px -1px 8px #ffffff;
+	width:130px;
+	height:50px;
+	padding-top:5px;
+
 }
 #nav li a {	background:url(../images/buttonup.png) no-repeat left top;
+background-size: 130px 50px;
 }
 #nav #giftcardnav li a { background:url(../images/buttonup2.png) no-repeat left top;
 }
 
 #nav a.glow, a.glow:hover, a.glow:focus active{
 	font-family: 'Average Sans', sans-serif;
-	font-size:12px;
+	font-size:14px;
 	text-decoration: none;
 	color: #e27f4a;
 /* 	switch back to none? */
@@ -1096,13 +1109,17 @@ background-image: -webkit-gradient(
 	outline: 0 none;
 		color: #fdb10d;
 	text-shadow: 1px 1px 8px #ffeccc, 1px -1px 8px #ffffff;
+	width:130px;
+	height:50px;
+	padding-top:5px;
+
 }
 
 
 #nav a.glow, a.glow:hover, a.glow:focus
 {
 	font-family: 'Average Sans', sans-serif;
-	font-size:12px;
+	font-size:14px;
 	text-decoration: none;
 	color: #f79561;
 /* 	switch back to none? */
@@ -1112,6 +1129,9 @@ background-image: -webkit-gradient(
 	-o-transition: 500ms linear 0s;
 	transition: 500ms linear 0s;
 	outline: 0 none;
+	width:130px;
+	height:50px;
+
 }
 
 #nav a.glow:hover, a.glow:focus
@@ -1133,7 +1153,9 @@ background-image: -webkit-gradient(
 	outline: 0 none;
 		color: #fdb10d;
 	text-shadow: 1px 1px 8px #ffeccc, 1px -1px 8px #ffffff;
-	width: 115px;
+	width:130px;
+	height:50px;
+
 }
 
 
@@ -1150,14 +1172,16 @@ background-image: -webkit-gradient(
 	-o-transition: 500ms linear 0s;
 	transition: 500ms linear 0s;
 	outline: 0 none;
-	width: 115px;
+	width:130px;
+	height:50px;
 }
 
 #nav a.glow2:hover, a.glow2:focus
 {
 	color: #fdb10d;
 	text-shadow: 1px 1px 8px #ffeccc, 1px -1px 8px #ffffff;
-	width: 115px;
+	width:130px;
+	height:50px;
 }
 
 #home {min-height:650px;
@@ -1273,7 +1297,7 @@ and (min-width: 769px) and (max-width:957px){
 	#giftcardnav li a {width: 123px !important;}
 	
 #logo {
-    float: left;
+    text-align: center;
     padding: 17px 7px 0 200px;
 }
 
@@ -1291,14 +1315,14 @@ and (min-width: 769px) and (max-width:957px){
 and (min-width: 481px) and (max-width:768px){
    .phone-break { display: none; }
    .smallscreen-break {display: none;}
-   	.fright2 {float:left;}
+   .fright2 {float:left;}
 	#nav li a {float: left !important; height:38px !important; width: 95px !important; line-height: 35px !important; text-align: center !important; }
 	#nav li.current a {float: left !important; height:38px !important; width: 80px !important; line-height: 35px !important; text-align: center !important; }
 	#nav {width:595px;}
 	#nav li {float: left !important;}
 	#giftcardnav li a {width:120px !important;}
 
-#logo {float: left;padding: 17px 7px 0 200px;}
+#logo {text-align: center;padding: 17px 7px 0 200px;}
 
 #nav {padding: 25px 80px 0;}
 	.audiojs {float: left !important;left: 84px !important;position: relative !important;top: -100px !important;width: 35px !important;}
@@ -1349,3 +1373,4 @@ and (min-width: 1px) and (max-width:481px){
 	  margin-left: auto ;
   margin-right: auto ;
 }
+
