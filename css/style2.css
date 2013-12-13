@@ -1374,3 +1374,10 @@ and (min-width: 1px) and (max-width:481px){
   margin-right: auto ;
 }
 
+#ui-datepicker-div {
+    top: 435px !important;
+}
+
+#OT_timeList, #OT_partyList {
+    top: -203px !important;
+}
