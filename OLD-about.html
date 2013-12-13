@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<link href='http://fonts.googleapis.com/css?family=Della+Respira|Average+Sans' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.1.min.js"></script>
+
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script>
+	   $('a.backtop').click(function(){
+			 $('html, body').animate({scrollTop: '0px'}, 1000);
+			 return false;
+	   });
+       $(document).ready(function(){
+
+			//Testimonials scroll
+			$('.flexslider').flexslider({
+				directionNav: false,
+				controlNav: true
+			});
+
+			if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod') {
+				$("#header").css("position", "static");
+			};
+
+			$("iframe").each(function(){
+				var ifr_source = $(this).attr('src');
+				var wmode = "wmode=transparent";
+				if(ifr_source.indexOf('?') != -1) {
+				var getQString = ifr_source.split('?');
+				var oldString = getQString[1];
+				var newString = getQString[0];
+				$(this).attr('src',newString+'?'+wmode+'&'+oldString);
+				}
+				else $(this).attr('src',ifr_source+'?'+wmode);
+			});
+
+       });
+    </script>
+
+
+
+<style>
+html
+{
+    overflow: scroll;
+}
+
+	body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+
+	#loading {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		}
+
+	#calendar {
+		width: 900px;
+		margin: 0 auto;
+		}
+
+</style>
+
+<meta charset="utf-8">
+<title>Tangierino</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+
+
+	<div class="wrapper">
+    	<!--header-->
+        <div id="header">
+        	<div class="container">
+                <div id="logo">
+                    <a href="index.html"><img src="images/Tangierino_logo.png" width=300px;></a>
+                </div>
+                <br class="tablet-break"/><br class="tablet-break"/><br class="tablet-break"/>
+                <div class="fleft">
+                    <ul id="nav">
+                        <li class="current"><a href="about.html" class="glow">About</a></li>
+                        <li><a href="menus.html" class="glow">Cuisine</a></li>
+                        <li><a href="calendar2.html" class="glow">Entertainment</a></li>
+<!--
+							<br class="smallscreen-break" />
+							<br class="smallscreen-break" />
+							<br class="smallscreen-break" />
+-->
+                        <li><a href="#" class="glow">Private Functions</a></li>
+                        <li><a href="gallery.html" class="glow">Photos/Videos</a></li>
+                        <li><a href="#" class="glow">Koullshi</a></li>
+                        <li><a href="giftcards-contact.html" class="glow">Contact/Gift Cards</a></li>
+<!--
+                        <li><a href="#services" class="glow">Reservations</a></li>
+                        <li><a href="#services" class="glow">Reservations</a></li>
+                        <span id="giftcardnavsmall"><li><a href="#contacts" class="glow2">GC &amp; Contact</a></li></span>
+                        <span id="giftcardnav"><li><a href="#contacts" class="glow2">Gift Cards / Contact</a></li></span>
+-->
+                    </ul>
+                </div>
+        	</div>
+        </div>
+	</div>
+<div class="clear"></div>          
+
+           <!--about-->
+           <div class="section" id="about">
+           <div style="height:225px;">&nbsp;</div>
+
+           		<div class="container">
+           		
+           		<div>
+                <h3 style="text-align: left;">&nbsp;Samad Naamad</h3>
+                    <span class="titles"></span><h2 style="line-height: 1px;">&nbsp;</h2>
+<!--                 <img src="images/popup/samad.png"> -->
+                <img src="images/samad.png" align="left" style="padding-right:10px;">Samad Naamad is a visual and culinary artist from which Tangierino ​restaurant, Koullshi Lounge and SNE entertainment were born.  Tangierino ​stands as a symbol of his artistic passions and amalgamation of culinary and ​visual mediums. swirling together expertise in culinary arts, visual design, ​performance and film production. Samad Naamad is a quintessential creator, ​going to the ends of earth, and often sacrificing convention, in order to realize a ​vision of providing an entirely unique experience.
+                <br />
+                <br />
+                To learn more about Samad Naamad, <a href="#">click here to visit his website</a>.
+           		</div>
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+<br />           
+           		
+                    <span class="titles"><img src="images/titles/About.png"></span><h2>&nbsp;</h2>
+                    <div class="col54_percent fleft">
+                        <p>Tangierino is a one-of-a-kind and exceptionally eclectic restaurant that combines the deeply-developed Moroccan culinary culture with a contemporary infusion of French, Mediterranean and American Chophouse influences.  The resulting cuisine is out-of-this-world unique, deliciously decadent and appeals to a very wide range of tastes.</p>
+
+                        <p> From the magic flavors induced by clay tagines, to a charbroiled rack of lamb dusted with exotic spices to the sesame-kissed tuna loin, to our rich, fork-tender braised short rib with fig, the unmistakable flavors of Tangierino are alluring and memorable.  Experience the sensual, rose water handwashing ritual and dine surrounded by inspiring décor underneath flowing tapestries on ornate tables dappled with fresh rose petals.  Tangierino is a one-of-a-kind place to be savored.</p>
+                    </div>
+                    
+                    <div class="col42_percent fright">
+<!--                         <h3>Testimonials</h3> -->
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <div id="test-text">
+                                        <p><img src="images/5star.png" style="display:inline; bottom:108px; right:306px;  position:absolute; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lavishly appointed with rich tapestries, heavy drapes, bejeweled chandeliers and hammered brass, Tangierino oozes both opulence and decadence. It’s not just romantic, it&rsquo;s downright sensual.</p>
+<!--                                         <p><span class="author">John</span></p> -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="test-text">
+                                        <p>A place where there are belly dancers at dinner and where I prefer tea over chocolate? Tangierino is indeed a very different world, but a world I&rsquo;d love to come back to over and over again.</p>
+<!--                                         <p><span class="author">Adam</span>, lorem ipsum</p> -->
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+<!--                     <h3>Reviews</h3> -->
+                    <div class="products">
+                        <div class="team">
+                            <img src="images/about/zagat.png" alt="Zagat" />
+                            <div class="author">
+                                <span style="font-size:14pt;">Zagat</span>
+                            </div>
+                            &ldquo;The product of an over $2 million-dollar renovation, Tangierino is a distinctive Moroccan Chophouse recognized as one of Boston&rsquo;s premier destination restaurants by Zagats, Boston Magazine, The Boston Globe, Improper Bostonian and Phantom Gourmet.&rdquo;
+                        </div>
+                        <div class="team">
+                            <img src="images/about/bestboston.png" alt="Best of Boston" />
+                            <div class="author">
+                                <span style="font-size:14pt;">Best of Boston</span>
+                            </div>
+&ldquo;Stepping into this Moroccan and Mediterranean-fusion restaurant transports you to a sultry fairytale land of ornate textures and luscious colors. Also, Tangierino&rsquo;s food is exceptional!&rdquo;                        </div>
+                        <div class="team">
+                            <img src="images/about/AOL.png" alt="AOL" />
+                            <div class="author">
+                                <span style="font-size:14pt;">AOL</span>
+                            </div>
+&ldquo;Tangierino&rsquo;s flavors are from another world, with caramelized onions, slices of green olive and preserved lemon peel, and a whiff of sweet spice that carries the crunchy nuggets of squid to another level.&rdquo;                        </div>
+                        <div class="team">
+                            <img src="images/about/yelp.png" alt="Yelp" />
+                            <div class="author">
+                                <span style="font-size:14pt;">Yelp</span>
+                            </div>
+&ldquo;They do make a killer Blood Orange Cosmo to accompany all the amazing spices and tastes&#8230;and by that I mean it is fantastic!  Tangierino is like no other.&rdquo;                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+           </div>
+           <!--//about-->
+
+           <div style="height:100px;">&nbsp;</div>
+
+
+        <!--footer-->
+        <div id="footer">
+        	<div class="container">
+            	&copy; Copyright 2013
+                
+            </div>
+        </div>
+		<!--//footer-->
+
+
+
+</div>
+</body>
+</html>

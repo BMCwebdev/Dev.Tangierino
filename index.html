@@ -5,122 +5,15 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 <script src="js/jquery-1.7.1.min.js"></script>
-<!-- <script src='jquery/jquery-1.9.1.min.js'></script> -->
 
-
-<link href='fullcalendar/jquery-ui-1.10.3.custom.css' rel='stylesheet' />
-<link href='fullcalendar/fullcalendar.css' rel='stylesheet' />
-<link href='fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
 <link href='http://fonts.googleapis.com/css?family=Della+Respira|Average+Sans' rel='stylesheet' type='text/css'>
-<!-- <script src='jquery/jquery-1.9.1.min.js'></script> -->
 <script src='jquery/jquery-ui-1.10.2.custom.min.js'></script>
-<script src='fullcalendar/fullcalendar.min.js'></script>
-<script src='fullcalendar/gcal.js'></script>
-<!-- <script src='jquery.imageLens.js' type="text/javascript"></script> -->
 <script src='js/jquery.imageLens.js' type="text/javascript"></script>
-<!--
-	<script type="text/javascript" language="javascript">
-		$(function () {
-			$("#img_01").imageLens();
-			$("#img_02").imageLens({ lensSize: 200 });
-			$("#img_03").imageLens({ imageSrc: "sample01.jpg" });
-			$("#img_04").imageLens({ borderSize: 8, borderColor: "#06f" });
-		});	
-	</script>
--->
 	
 	
-<script type="text/javascript" language="javascript">
-function radioButtonClick() {
-    var $clickedRadioButton = $(this);
-    var clickedValue = $clickedRadioButton.val();
-
-    $('#container form').hide();
-    $('#' + clickedValue + '-form').show();
-}
-
-function documentLoad() {
-    $('#container :radio').click(radioButtonClick);
-}
-
-$(documentLoad);
-	</script>
 	
-	
-	<style>
-	#general-form, #ccsfg-form, #employment-form {
-    display: none;
-}
-</style>
-
-<!--
-	<script src="simpleCart.js"></script>
-	<script>
-		simpleCart({
-			checkout: { 
-				type: "PayPal" , 
-				email: "you@yours.com" 
-			}
-		});	
-	</script>
--->
 
 
-
-<!-- <script src='jquery/jquery.ba-outside-events.js'></script> -->
-<!-- <script src='jquery/jquery.clickout.js'></script> -->
-<script>
-
-	$(document).ready(function() {
-
-		$('#calendar').fullCalendar({
-			// Brian's Cal
-			events: 'https://www.google.com/calendar/feeds/Samadn123%40gmail.com/public/basic',
-
-defaultView: 'basicWeek',
-	theme: true,
-	height:400,
-
-			eventClick: function(event) {
-				// opens events in a popup window
-				window.open(event.url, 'gcalevent', 'width=700,height=600');
-				return false;
-			},
-
-			loading: function(bool) {
-				if (bool) {
-					$('#loading').show();
-				}else{
-					$('#loading').hide();
-				}
-			}
-
-		});
-
-	});
-$('#calendar').fullCalendar('option', 'aspectRatio', 7.8);
-</script>
-
-
-
-
-<!-- Hide the modal dialog when someone clicks outside of it. -->
-
-<script>
-var globalCloseSelector = 'body';
-function closeModal(e) {
-	var $target = $(e.target);
-
-	if (!$target.is(':input')) {
-		$('.modal').hide();
-		$(globalCloseSelector).die('click', closeModal);
-	}
-}
-
-$('.modalLink').live('click', function (){
-	$(globalCloseSelector).live('click', closeModal);
-});
-</script>
 
 
 <style>
@@ -155,46 +48,20 @@ html
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="css/prettyPhoto.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
 <link rel="stylesheet" href="css/camera.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/skeleton.css">
 
-
-<!-- BRIAN OTHER POPUP -->
-<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
-
-
-<!-- <script src="js/jquery-1.7.1.min.js"></script> -->
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script src="js/jquery.mobile.customized.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/camera.min.js"></script>
-<!-- <script src="js/jquery.ba-outside-events.js"></script> -->
-<!-- <script src="js/jquery.ba-outside-events.min.js"></script> -->
-
-
 
 <!-- BRIAN POP UP WINDOW JS -->
         <script type="text/javascript" src="js/jquery_002.js"></script>
         <script type="text/javascript" src="js/site.js"></script>
-<!--         <script type="text/javascript" src="js/jscroll.js"></script> -->
 
-<!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="js/respond.src.js"></script>
-<![endif]-->
-
-<!-- BRIAN THIS IS THE POP UP CSS AND JS -->
-<!-- <link rel="stylesheet" href="css/reveal.css"> -->
-<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script> -->
-<!-- <script type="text/javascript" src="js/jquery.reveal.js"></script> -->
-
-<!--
-<script tyep="text/javascript" src="js/jquery.modal.js"></script>
-<script tyep="text/javascript" src="js/jquery.modal.min.js"></script>
-<script tyep="text/javascript" src="js/site.js"></script>
--->
 
 <script src="js/audio.min.js"></script>
 <script>
@@ -218,39 +85,19 @@ html
 
 .audiojs .time {
 	display: none;
-	}
-
-	
-	
+	}	
 </style>
 
 </head>
 <body>
 
 <div id="preloader">
-	<img src="images/submenu/cusine_hover.png" width="1" height="1" />
-	<img src="images/submenu/cusine.png" width="1" height="1" />
-	<img src="images/submenu/events_hover.png" width="1" height="1" />
-	<img src="images/submenu/events.png" width="1" height="1" />
-	<img src="images/submenu/koullshi_hover.png" width="1" height="1" />
-	<img src="images/submenu/koullshi.png" width="1" height="1" />
-	<img src="images/submenu/private_events.png" width="1" height="1" />
-	<img src="images/submenu/private_events_hover.png" width="1" height="1" />
-	<img src="images/submenu/samad_hover.png" width="1" height="1" />
-	<img src="images/submenu/samad.png" width="1" height="1" />
-	<img src="images/submenu/signup_hover.png" width="1" height="1" />
-	<img src="images/submenu/signup.png" width="1" height="1" />
 	<img src="images/slider/FilletSlider.jpg" width="1" height="1" />
 	<img src="images/slider/ColorfulSliderjpg.jpg" width="1" height="1" />
 	<img src="images/slider/PetalsSlider.jpg" width="1" height="1" />
 	<img src="images/slider/ScallopsSlider.jpg" width="1" height="1" />
 	<img src="images/slider/ShortRibSlider.jpg" width="1" height="1" />
 </div>
-
-<div id="closepop">
-
-
-
 
 
 
@@ -275,26 +122,30 @@ html
                     <a href="index.html"><img src="images/Tangierino_logo.png" width=300px;></a>
                 </div>
                 <br class="tablet-break"/><br class="tablet-break"/><br class="tablet-break"/>
-                <div class="fright2">
+                <div class="fleft">
                     <ul id="nav">
-                        <li class="current"><a href="#home" class="glow">Home</a></li>
-                        <li><a href="#about" class="glow">About</a></li>
-                        <li><a href="#blog" class="glow">Menus</a></li>
-<!--
-							<br class="smallscreen-break" />
-							<br class="smallscreen-break" />
-							<br class="smallscreen-break" />
--->
-                        <li><a href="#catalog" class="glow">Gallery</a></li>
-                        <li><a href="#services" class="glow">Reservations</a></li>
-                        <span id="giftcardnavsmall"><li><a href="#contacts" class="glow2">GC &amp; Contact</a></li></span>
-                        <span id="giftcardnav"><li><a href="#contacts" class="glow2">Gift Cards / Contact</a></li></span>
+                        <li><a href="about.html" class="glow">About</a></li>
+                        <li><a href="menus.html" class="glow">Cuisine</a></li>
+                        <li><a href="calendar2.html" class="glow">Entertainment</a></li>
+
+                        <li><a href="#" class="glow">Private Functions</a></li>
+                        <li><a href="gallery.html" class="glow">Photos/Videos</a></li>
+                        <li><a href="#" class="glow">Koullshi</a></li>
+                        <li><a href="giftcards-contact.html" class="glow">Contact/Gift Cards</a></li>
+
                     </ul>
                 </div>
-                <div class="clear"></div>            <audio src="music/The_Letter_Smaller.mp3" preload="auto" loop="loop" autoplay="autoplay" />
+        	</div>
+        </div>
+	</div>
+
+
+
+
+
+                <div class="clear"></div>            <!-- <audio src="music/The_Letter_Smaller.mp3" preload="auto" loop="loop" autoplay="autoplay" /> -->
 
             </div>
-        </div>
         <!--//header-->
 
        <!--main-->
@@ -309,9 +160,13 @@ html
 	   <br class="phone-break" />
 	   <br class="phone-break" />
 	   <br class="phone-break" />
+	   
+	   
 
            <!--home-->
-           <div class="section" id="home">
+           <div class="section">
+           	   <div style="height:400px;">&nbsp;</div>
+
                 <!-- #camera_wrap_1 -->
                 <div class="camera_wrap" id="camera_wrap_1">
                     <div data-src="images/slider/FilletSlider.jpg"></div>
@@ -326,683 +181,19 @@ html
 
 
 
-<!-- BRIAN BEGIN POPUPS -->
-        <div style="display: none;" id="modal1" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                <img src="images/popup/cusine.png"><div class="touchscreentext">Touch the image to return to main webpage.</div>
-                 <h3>Tangierino Cuisine</h3>
-                <p class="popuptext"><i>The cuisine at Tangierino is a fusion of old and new world cooking, artfully ​blending North African spices and techniques with contemporary French, ​American, and Mediterranean style. The resulting dishes are masterfully ​assembled with vibrant and distinctive flavors, unique to Tangierino, but ​designed to appeal to a wide range of palates.
-                <br /><br />
-                <a href="#blog">Click here</a> to view our diverse menu selection.</i></p>
-        </div>
-
-
-
-
-
-
-        <div style="display: none;" id="modal2" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                <img src="images/popup/samad.png"><div class="touchscreentext">Touch the image to return to main webpage.</div>
-                <h3>Samad Naamad</h3>
-                <p class="popuptext"><i>Samad Naamad is a visual and culinary artist from which Tangierino ​restaurant, Koullshi Lounge and SNE entertainment were born.  Tangierino ​stands as a symbol of his artistic passions and amalgamation of culinary and ​visual mediums. swirling together expertise in culinary arts, visual design, ​performance and film production. Samad Naamad is a quintessential creator, ​going to the ends of earth, and often sacrificing convention, in order to realize a ​vision of providing an entirely unique experience.</i>
-                <p class="popuptext"><i>To learn more about Samad Naamad, <a href="#">click here to visit his website</a>.</i></p>
-                </p>
-        </div>
-
-
-        <div style="display: none;" id="modal3" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                <img src="images/popup/Koullshi_Entrance.png"><div class="touchscreentext">Touch the image to return to main webpage.</div>
-                <h3>Koullshi</h3>
-                <p class="popuptext"><i>Voted &ldquo;Boston&rsquo;s Hottest Night Spot,&rdquo; Koullshi is without question, a one-of-a-​kind exotic lounge where the most elegant, floral and fruity hookah and over 70 ​premium cigars are enjoyed in a vibrant, 5,000 square foot lounge created by ​excavating deep into the earth. A state-of-the-art air exchange system keeps ​the air clean and fresh for relaxing and enjoying 7 flat screens where something ​is always on and Koullshi offers a full bar and both private and intimate spaces ​and a separate cigar lounge to cater to a wide range of pleasures.
-                <br /><br />
-                <a href="http://www.koullshi.com/">Click here</a> to visit the Koullshi site.</i></span></p>
-        </div>
-
-
-        <div style="display: none;" id="modal4" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                	<img class="seatingpics" src="images/Gallery_Images/tang_seating_1.png" width="90px;" height="90px;" style="top: 65px;">
-                	<img class="seatingpics" src="images/Gallery_Images/tang_seating_2.png" width="90px;" height="90px;" style="top: 165px;">           
-                	<img class="seatingpics" src="images/Gallery_Images/tang_seating_3.png" width="90px;" height="90px;" style="top: 265px;">
-
-                <h3>Private Functions</h3>
-                <div class="container">
-                    <div class="col10_percent fleft">
-                        <div class="contact_form2">
-<!--
-                           <form action="MAILTO:brian@bmcwebdev.com" id="contact_form" method="post">
-                                <p><label for="name2">Your Name</label><input class="textfield" type="text" name="name" id="name2" value="" /></p>
-                                <p><label for="email2">E-Mail Address</label><input class="textfield" type="text" name="email" id="email2" value="" /></p>
-                                <p><label for="phone">Phone Number</label><input class="textfield" type="text" name="phone" id="phone" value="" /></p><br /><br />
-                                <p><label for="message">Your Message</label><textarea name="message" id="message" class="textarea"></textarea></p>
-                                <div class="clear"></div>
-                                <input id="buttonemail2" type="submit" class="send_mess" value=" " style="margin: 0px 0px 0 0;"/>
-                            </form>
--->
-                            
-                            
-                            
-                            <form id="contact-form2" action="mailer_PHP_forms/mailerfunctions.php" method="post">
-                                <p><label for="name2">Your Name</label><input class="textfield" type="text" name="name" id="name2" value="" /></p>
-                                <p><label for="email2">E-Mail Address</label><input class="textfield" type="text" name="email" id="email2" value="" /></p>
-                                <p><label for="phone">Phone Number</label><input class="textfield" type="text" name="phone" id="phone" value="" /></p>
-                                <p><label for="message">Your Message</label><textarea name="message" id="message" class="textarea"></textarea></p>
-                                <div class="clear"></div>
-                                <input type="submit" class="send_mess" value=" " />
-                            </form>
-
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <img src="images/popup/popup_purple2.png" style="left: -57px; position: relative; height: 285px; margin-top: 12px;">
-
-                <p class="popuptext2">​<i>Tangierino is widely regarded as a unique venue for celebrating special events and business dinners, catering to private events of 10 to 300 people. To 	inquire about holding your private function at Tangierino, call 617.242.6009 or use this form to coordinate and customize your needs and share your ideas. Tangierino offers several menus catered to the varied tastes and requirements of larger parties and we can design private events suitable for any age group or celebration.</i><br />
-                <br />
-                <!-- <strong> --><i>​<!-- Private Rooms available for Special Functions.  -->Click here to view our <u><a href="#privmenus">Private Events menus</a></u>.</i><!-- </strong> --><!--
-<br />
-
-                                           <br />
-                                           <br />
-                            <a href="javascript:{}" class="read" style="display: inline-block; margin-right:20px;" target="_blank"><span style="color:#ffffff;">Full Menu</span></a>
-                            <a href="javascript:{}" class="read" style="display: inline-block; margin-right:20px;" target="_blank"><span style="color:#ffffff;">Full Menu</span></a>
-                            <a href="javascript:{}" class="read" style="display: inline-block; margin-right:20px;" target="_blank"><span style="color:#ffffff;">Full Menu</span></a>
-
--->
-</span></p>
-        </div>
-
-
-        <div style="display: none;" id="modal5" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                <img src="images/popup/events.png">
-                <h3>Belly Dancing</h3>
-                <p class="popuptext"><i>A nightly event at Tangierino and Koullshi, belly dancing is a mesmerizing and seductive art form with deep roots in Moroccan culture and Middle Eastern lore. The Belly Dance is a spiritual connection between mind and body and at Tangierino, it completes the total sensory experience, unleashes freedom, and most importantly, the ancient performance celebrates an inner spirit through expressive movement.  Belly Dancing performances occur at Tangierino weekdays at 7:00PM and weekends at 7:30 and 9:30PM.</i><br /><br />        </div>
-
-<!--
-        <div style="display: none;" id="modal6" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br>
-                <img src="images/popup/sign-up.png">
-                <h3>Sign-Up</h3>
-                <p class="popuptext">​<i>Tangierino has a loyal following that subscribe to our tasteful campaigns to ​keep our customers abreast of the latest happenings, events and promotions.  ​Use the form to the right to subscribe to our newsletter in order to be notified of ​events and special offers.  Your information will never be sold or shared.</i>
-                </p>
-                                <div class="container">
-                    <div class="col10_percent fleft">
-                        <div class="contact_form3">
-                           <form action="MAILTO:brian@bmcwebdev.com" id="contact_form" method="post">
-                                <p><label for="name2">Your Name</label><input class="textfield" type="text" name="name" id="name2" value="" /></p>
-                                <p><label for="email2">E-Mail Address</label><input class="textfield" type="text" name="email" id="email2" value="" /></p>
-                                <div class="clear"></div>
-                                <input id="buttonemail" type="submit" class="send_mess" value=" " />
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-        </div> 
--->
-
-
-        <div style="display: none;" id="modal6" class="modal">
-                <h1>&nbsp;</h1>
-                <a href="#" class="closeBtn btn"></a><br />
-                <img src="images/popup/sign-up.png">
-                <h3>Events</h3>
-                <p class="popuptext">​<i>Our calendar regularly features special nights to highlight different elements ​menu and cocktail features, tastings, social opportunities and introducing new ​and vibrant ideas.</i><br /><br />
-<i><a href="calendar.html" target="_blank">View our calendar of other events</a> &ndash; updated weekly.</i> </p>
-                <a href="calendar.html" target="_blank"><img src="images/popup/cal2.png" style="margin: -153px 0px 0px 875px"></a>
-
-        </div> 
-
-
-
-<!-- BRIAN END POPUPS -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- //#camera_wrap_1 -->
-                <div class="home_page">
-                	<div class="container"  style="width:997px;">
-                        <div class="center">
-                            <div class="info_t">&nbsp;</div>
-
-
-
-
-<div class="popupcenter">
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal1" class="modalLink">
-                           <img src="images/submenu/cusine.png" onmouseover="this.src='images/submenu/cusine_hover.png'" onmouseout="this.src='images/submenu/cusine.png'"  alt="" /><span>&nbsp;</span>
-                            		</a>
-                   </article>
-                </section>
-               </section>
-             </div>
-
-
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal2" class="modalLink">
-                           <img src="images/submenu/samad.png" onmouseover="this.src='images/submenu/samad_hover.png'" onmouseout="this.src='images/submenu/samad.png'"  alt="" /><span>&nbsp;</span>
-                            		</a>
-                   </article>
-                </section>
-               </section>
-             </div>
-
-<br class="phone-break" />
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal3" class="modalLink">
-                           <img src="images/submenu/koullshi.png" onmouseover="this.src='images/submenu/koullshi_hover.png'" onmouseout="this.src='images/submenu/koullshi.png'"  alt="" /><span>&nbsp;</span>
-                            		</a>
-                   </article>
-                </section>
-               </section>
-             </div>
-
-<br class="smallscreen-break" />
-<br class="tablet-break" />
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal4" class="modalLink">
-                           <img src="images/submenu/private_events.png" onmouseover="this.src='images/submenu/private_events_hover.png'" onmouseout="this.src='images/submenu/private_events.png'"  alt="" /><span>&nbsp;</span>
-                            		</a>
-                   </article>
-                </section>
-               </section>
-             </div>
-
-<br class="phone-break" />
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal5" class="modalLink">
-                           <img src="images/submenu/events.png" onmouseover="this.src='images/submenu/events_hover.png'" onmouseout="this.src='images/submenu/events.png'"  alt="" /><span>&nbsp;</span>
-                        </a>
-                   </article>
-                </section>
-               </section>
-             </div>
-
-             <div class="item2">
-               <section id="examples">
-                <section class="centerUp" id="demos">
-                   <article class="demos">
-                        <a href="#modal6" class="modalLink">
-                           <img src="images/submenu/signup.png" onmouseover="this.src='images/submenu/signup_hover.png'" onmouseout="this.src='images/submenu/signup.png'"  alt="" /><span>&nbsp;</span>
-                            		</a>
-                   </article>
-                </section>
-               </section>
-             </div>
-</div>
-                            <div class="clear"></div>
-                        <div class="block_info">
+<div class="container" style="width:997px;">
+<div class="intro">
+	                               <div class="block_info">
 <div class="intro"><img src="images/titles/Tangierino-is2.png"> one of the most highly acclaimed and talked about culinary experiences in greater Boston, rich with visual elegance, exotic tastes and masterful service. Come savor what has helped Tangierino earn unique distinction, year after year, as &ldquo;City&rsquo;s Best,&rdquo; &ldquo;Most Romantic,&rdquo; &ldquo;Most Exotic,&rdquo; and &ldquo;A Boston Top 10.&rdquo;
 </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-           </div>
-           <!--//home-->
+			       <div style="height:200px;">&nbsp;</div>
 
-           <!--about-->
-           <div class="section" id="about">
-           		<div class="container">
-                    <span class="titles"><img src="images/titles/About.png"></span><h2>&nbsp;<a href="#" class="backtop"></a></h2>
-                    <div class="col54_percent fleft">
-<!--                         <h3>About</h3> -->
-                        <p>Tangierino is a one-of-a-kind and exceptionally eclectic restaurant that combines the deeply-developed Moroccan culinary culture with a contemporary infusion of French, Mediterranean and American Chophouse influences.  The resulting cuisine is out-of-this-world unique, deliciously decadent and appeals to a very wide range of tastes.</p>
-
-                        <p> From the magic flavors induced by clay tagines, to a charbroiled rack of lamb dusted with exotic spices to the sesame-kissed tuna loin, to our rich, fork-tender braised short rib with fig, the unmistakable flavors of Tangierino are alluring and memorable.  Experience the sensual, rose water handwashing ritual and dine surrounded by inspiring décor underneath flowing tapestries on ornate tables dappled with fresh rose petals.  Tangierino is a one-of-a-kind place to be savored.</p>
-                    </div>
-                    <div class="col42_percent fright">
-<!--                         <h3>Testimonials</h3> -->
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li>
-                                    <div id="test-text">
-                                        <p><img src="images/5star.png" style="display:inline; bottom:108px; right:306px;  position:absolute; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lavishly appointed with rich tapestries, heavy drapes, bejeweled chandeliers and hammered brass, Tangierino oozes both opulence and decadence. It’s not just romantic, it&rsquo;s downright sensual.</p>
-<!--                                         <p><span class="author">John</span></p> -->
-                                    </div>
-                                </li>
-                                <li>
-                                    <div id="test-text">
-                                        <p>A place where there are belly dancers at dinner and where I prefer tea over chocolate? Tangierino is indeed a very different world, but a world I&rsquo;d love to come back to over and over again.</p>
-<!--                                         <p><span class="author">Adam</span>, lorem ipsum</p> -->
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-<!--                     <h3>Reviews</h3> -->
-                    <div class="products">
-                        <div class="team">
-                            <img src="images/about/zagat.png" alt="Zagat" />
-                            <div class="author">
-                                <span style="font-size:14pt;">Zagat</span>
-                            </div>
-                            &ldquo;The product of an over $2 million-dollar renovation, Tangierino is a distinctive Moroccan Chophouse recognized as one of Boston&rsquo;s premier destination restaurants by Zagats, Boston Magazine, The Boston Globe, Improper Bostonian and Phantom Gourmet.&rdquo;
-                        </div>
-                        <div class="team">
-                            <img src="images/about/bestboston.png" alt="Best of Boston" />
-                            <div class="author">
-                                <span style="font-size:14pt;">Best of Boston</span>
-                            </div>
-&ldquo;Stepping into this Moroccan and Mediterranean-fusion restaurant transports you to a sultry fairytale land of ornate textures and luscious colors. Also, Tangierino&rsquo;s food is exceptional!&rdquo;                        </div>
-                        <div class="team">
-                            <img src="images/about/AOL.png" alt="AOL" />
-                            <div class="author">
-                                <span style="font-size:14pt;">AOL</span>
-                            </div>
-&ldquo;Tangierino&rsquo;s flavors are from another world, with caramelized onions, slices of green olive and preserved lemon peel, and a whiff of sweet spice that carries the crunchy nuggets of squid to another level.&rdquo;                        </div>
-                        <div class="team">
-                            <img src="images/about/yelp.png" alt="Yelp" />
-                            <div class="author">
-                                <span style="font-size:14pt;">Yelp</span>
-                            </div>
-&ldquo;They do make a killer Blood Orange Cosmo to accompany all the amazing spices and tastes&#8230;and by that I mean it is fantastic!  Tangierino is like no other.&rdquo;                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-           </div>
-           <!--//about-->
-
-
-
-
-           <!--blog-->
-           <div class="section" id="blog">
-           		<div class="container">
-                    <span class="titles"><img src="images/titles/Menus.png"></span><h2>&nbsp;<a href="#" class="backtop"></a></h2>
-           		<p>Tangierino&rsquo;s creative adaptations on both new and old-world cuisines represent some of the most sumptuous fusions around, delicately lacing dishes with cinnamon, sticky figs, fresh lemon, smoky eggplant, garlic and complex olives.  Traditional clay tagines impart wonderful roasted subtleties and tenderness to classic North African dishes while our intensely hot grill sears and flavors prime steaks and chops which are expertly prepared and artfully plated by our experienced chef.</p>                    <!--post-->
-                    <div class="post">
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/menu/dinner_menu.png" alt="" /></div>
-                            <a href="images/menu/dinner_menu.png" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-<!--                             <a href="javascript:{}" class="post_link">Link</a> -->
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Dinner Menu</div>
-                            <div class="post_info">
-                            </div>
-                            Tangierino offers a complete dinner menu nightly and also features a special four-course menu sampling some of the signature dishes reminiscent of old world cuisine.
-                            <a href="menus/Tangierino.pdf" class="read" target="_blank">Full Menu</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!--//post-->
-
-
-                                        <!--post-->
-                    <div class="post">
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/menu/tapas_menu.png" alt="" /></div>
-                            <a href="images/menu/tapas_menu.png" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-<!--                             <a href="javascript:{}" class="post_link">Link</a> -->
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Tapas Menu</div>
-                            <div class="post_info">
-                            </div>
-                            Tangierino&rsquo;s Moulay Bar is gorgeous hardwoods and dappled with sultry lighting.  The lounge area features high-toip tables and leather seating, perfect for cocktails and a light meal.  Tangierino&rsquo;s Tapas Menu features artisan tagines, tapas and flatbreads to accompany handcrafted drinks and a wide range of exceptional spirits.
-                            <a href="menus/Tapas_Menu.pdf" class="read" target="_blank">Full Menu</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!--//post-->
-
-
-
-
-
-                    <!--post-->
-                    <div class="post">
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/menu/koullshi_menu.png" alt="" /></div>
-                            <a href="images/menu/koullshi_menu.png" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-<!--                             <a href="javascript:{}" class="post_link">Link</a> -->
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Koullshi Menu</div>
-                            <div class="post_info">
-                            </div>
-                            The City&rsquo;s only licensed smoking lounge, complete with exotic hookah, vast cigar selection and extensive full bar lies beneath Tangierino to be discovered and savored.  A sophisticated fresh-air exchange system, spacious seating and sultry décor combine for a level of socializing and relaxation that knows no bounds.<br />
-                            <a href="menus/Koullshi.pdf" class="read2" target="_blank">Full Menu</a>
-
-                            <a href="menus/Wine-List.pdf" class="read2" target="_blank">Wine List</a>
-
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!--//post-->
-
-
-
-
-
-                    <!--post-->
-                    <div class="post" id ="privmenus" >
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/menu/Wine_List.jpg" alt="" /></div>
-                            <a href="images/menu/wine_list.jpg" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-<!--                             <a href="javascript:{}" class="post_link">Link</a> -->
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Wine List</div>
-                            <div class="post_info">
-                            </div>
-                            Tangierino&rsquo;s Wine List is an exceptional journey of tastes, reflecting a commitment to make available some of the world&rsquo;s finest varietals and vintners.  Our professional wait staff are trained to suggest proper pairings with the unique tastes of Tangierino’s eclectic menu.
-                            <a href="menus/Tangierino_Wine_List.pdf" class="read" target="_blank">Wine List</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!--//post-->
-
-
-
-
-
-                    <!--post-->
-                    <div class="post">
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/menu/private_functions.png" alt="" /></div>
-                            <a href="images/menu/private_functions.png" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-<!--                             <a href="javascript:{}" class="post_link">Link</a> -->
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Private Functions Menu</div>
-                            <div class="post_info">
-                            </div>
-                            Parties of more than 10 people are a specialty at Tangierino.  Expertly crafted menus are available for functions or by working with our staff, we can customize a menu to suit your occasion.
-                           <br />
-                            <a href="menus/Old_World_Menu.pdf" class="read" style="display: inline-block; margin-right:20px; width: 115px;" target="_blank">Tangier Old World</a>
-                            <a href="menus/4_course_menu.pdf" class="read" style="display: inline-block; margin-right:20px; width: 185px;" target="_blank">Four Course Old &amp; New World</a>
-                            <a href="menus/5_course_menu.pdf" class="read" style="display: inline-block; margin-right:20px; width: 115px;" target="_blank">5-Course Tangier</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!--//post-->
-                    <!--post-->
-<!--
-                    <div class="post">
-                        <div class="col50_percent fleft">
-                            <div class="bord"><img src="images/blog/2.jpg" alt="" /></div>
-                            <a href="images/blog/2.jpg" rel="prettyPhoto[blog1]" class="post_zoom">Zoom</a>
-                            <a href="javascript:{}" class="post_link">Link</a>
-                        </div>
-                        <div class="col50_percent fright">
-                            <div class="post_title">Lorem Ipsum is simply dummy text</div>
-                            <div class="post_info">
-                                <ul>
-                                    <li class="date">Apr 05 2012</li>
-                                    <li class="cats"><a href="#">General</a>, <a href="#">Projects</a></li>
-                                    <li class="comment"><a href="#">3</a></li>
-                                </ul>
-                            </div>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            <a href="javascript:{}" class="read">More</a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
--->
-                    <!--//post-->
-                </div>
-           </div>
-           <!--//blog-->
-
-
-
-
-
-
-
-           <!--catalog-->
-           <div class="section" id="catalog">
-           		<div class="container">
-                    <span class="titles"><img src="images/titles/Gallery.png"></span><h2>&nbsp;<a href="#" class="backtop"></a></h2>
-                    <!-- sort_block -->
-<!--
-                    <div class="sort_block">
-                        <div id="options">
-                            <ul id="filters" class="option-set" data-option-key="filter">
-                               <li><a href="#filter"  data-option-value="*" class="selected">All</a></li>
-                               <li><a href="#filter"  data-option-value=".photo">Photos</a></li>
-                               <li><a href="#filter" data-option-value=".video">Video</a></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
--->
-<!--
-                               <a href="#" class="read" style="display: inline-block; margin-right:10px; width: 50px;">Photos</a>
-                               <a href="#" class="read" style="display: inline-block; margin-bottom:20px; width: 50px;">Videos</a>
--->
-
-                    <div class="sort_block">
-                        <div id="options" data-category="photo">
-                            <ul id="filters" class="option-set" data-option-key="filter">
-                               <li><a href="#filter"  data-option-value="*" class="selected">All</a></li>
-                               <li><a href="#filter" data-option-value=".restaurant">Restaurant</a></li>
-                               <li><a href="#filter" data-option-value=".cusine">Cusine</a></li>
-                               <li><a href="#filter" data-option-value=".events">Events</a></li>
-                               <li><a href="#filter" data-option-value=".videos">Videos</a></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <!-- //sort_block -->
-                    <!-- elements -->
-
-
-
-<div>
-<p>In addition to a dazzling culinary experience, many regard the exotic ambiance, décor and mesmerizing belly dancing as unique elements that further elevate Tangierino to exceptional heights.
-
-Click below to view images and video of our distinctive and unique restaurant experience. For more videos, check out the <a href="http://www.youtube.com/user/samadnaamad" style="font-size: 11pt; font-family: 'Average Sans',sans-serif;">YouTube channel here</a>.
-</p>
+	                               </div>
+</div>
 </div>
 
-                    <div class="projects">
-                        <div class="element videos" data-category="videos">
-                            <a href="http://youtu.be/h3xmxKKJiHs" rel="prettyPhoto[movies]"><span class="zoom"></span><span class="proj_name"></span><img src="videos/preview.png" alt="" /></a>
-                        </div>
-
-
-<!--
-                    <div class="projects">
-                        <div class="element videos" data-category="videos">
-                            <a href="videos/Tangierino.mov?width=960&height=540" rel="prettyPhoto[movies]"><span class="zoom"></span><span class="proj_name"></span><img src="videos/preview.png" alt="" /></a>
-                        </div>
--->
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0018_Tang-Short-Rib.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0018_Tang-Short-Rib.png" alt="" /></a>
-                        </div>
-                        <div class="element restaurant" data-category="restaurant">
-                            <a href="images/Gallery_Images/Gallery-Images_0020_Entrance.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name"></span><img src="images/Gallery_Images/Gallery-Images_0020_Entrance.png" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/tuna_tartare.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tuna_tartare.jpg" alt="" /></a>
-                        </div>
-                        <div class="element events" data-category="events">
-                            <a href="images/Gallery_Images/Gallery-Images_0005_Koullshi-Belly-2.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0005_Koullshi-Belly-2.png" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0013_Tang-Stew.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0013_Tang-Stew.png" alt="" /></a>
-                        </div>
-                        <div class="element restaurant" data-category="restaurant">
-                            <a href="images/Gallery_Images/tang_seating_2.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tang_seating_2.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/tagine.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tagine.jpg" alt="" /></a>
-                        </div>
-                        <div class="element events" data-category="events">
-                            <a href="images/Gallery_Images/Gallery-Images_0004_Koullshi-Henna.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0004_Koullshi-Henna.png" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0012_Tang-Scallops.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0012_Tang-Scallops.png" alt="" /></a>
-                        </div>
-                        <div class="element restaurant" data-category="restaurant">
-                            <a href="images/Gallery_Images/tang_seating_3.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tang_seating_3.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/stew.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/stew.jpg" alt="" /></a>
-                        </div>
-                        <div class="element events" data-category="events">
-                            <a href="images/Gallery_Images/Gallery-Images_0019_Koullshi-Tarot.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name"></span><img src="images/Gallery_Images/Gallery-Images_0019_Koullshi-Tarot.png" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0011_Tang-SR-App.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0011_Tang-SR-App.png" alt="" /></a>
-                        </div>
-                        <div class="element restaurant" data-category="restaurant">
-                            <a href="images/Gallery_Images/tang_seating_1.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tang_seating_1.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/shortrib_app.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/shortrib_app.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0010_Tang-Sultans-.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0010_Tang-Sultans-.png" alt="" /></a>
-                        </div>
-                        <div class="element restaurant" data-category="restaurant">
-                            <a href="images/Gallery_Images/tang_seating_4.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/tang_seating_4.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0009_Tang-Salmon-Kitchen.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0009_Tang-Salmon-Kitchen.png" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/Gallery-Images_0002_Tang-Salmon.png" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/Gallery-Images_0002_Tang-Salmon.png" alt="" /></a>
-                        </div>
-                        
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/eggplant.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/eggplant.jpg" alt="" /></a>
-                        </div>
-                        <div class="element cusine" data-category="cusine">
-                            <a href="images/Gallery_Images/salmon.jpg" rel="prettyPhoto[catalog1]"><span class="zoom"></span><span class="proj_name">&nbsp;</span><img src="images/Gallery_Images/salmon.jpg" alt="" /></a>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <!-- //elements -->
-                </div>
            </div>
-           <!--//catalog-->
-
-
-           <!--services-->
-           <div class="section" id="services">
-           <div class="container">
-            <span class="titles"><img src="images/titles/Reservations.png"></span><h2>&nbsp;<a href="#" class="backtop"></a></h2>
-<!--              <h3>via OpenTable.com</h3> -->
-                       <p>With such accolades, reservations at Tangierino are highly recommended, particularly on Friday and Saturday evenings.  Please use the Open Table interface to search and book your reservation.</p>
-
-
-<div id="opentable"><script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=2996&restref=2996&bgcolor=E17D47&titlecolor=FFFFFF&subtitlecolor=none&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_black.png&otlink=FFFFFF&icon=dark&mode=wide&hover=1"></script><a href="http://www.opentable.com/tangierino-reservations-charlestown?rtype=ism&restref=2996" class="OT_ExtLink"><span style="color:#CE6C37">Tangierino Reservations</a></div>
-
-<!-- <div class="container2" id=OT_searchWrapperAll><link href="http://www.opentable.com/ism/feed_transparent_horizontal.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://www.opentable.com/ism/default.aspx?rid=2996&restref=2996&mode=horiz-transparent-black&hover=1"></script><noscript id="OT_noscript"><a href="http://www.opentable.com/tangierino-reservations-charlestown?rtype=ism&restref=2996" >Reserve Now On OpenTable.com</a></noscript><div class="container2" id="OT_logoLink"><a href="http://www.opentable.com/tangierino-reservations-charlestown?rtype=ism&restref=2996" >Tangierino Reservations</a></div><div class="container2" id="OT_logo"></div></div> -->
-           <div class="clear">&nbsp;</div>
-           <br />
-          <div>
-
-<h4><span style="color:#E17D47">Seating:</span></h4>
-Private tents, sofa and elegant high chairs
-
-<h4><span style="color:#E17D47">Hours:</span></h4>
-Tangierino: 7 nights a week<br />
-Sunday -Thursday: 5:00pm - 10:30pm<br />
-Friday & Saturday: 5:00pm - 11:30pm
-
-<h4><span style="color:#E17D47">Tangierino Moulay Bar</span></h4>
-The Tangierino/Tapas menu is available nightly from 5:00pm-1:00am.
-
-<h4><span style="color:#E17D47">Belly Dancing:</span></h4>
-Shows in Tangierino at 7 pm & 9pm<br />
-Shows downstairs in Koullshi at 10:30 pm
-
-
-<h4><span style="color:#E17D47">Parking:</span></h4>
-Valet service nightly, street parking is available
-          </div>
-                     <div class="clear">&nbsp;</div>
-           <br />
-                     <div class="clear">&nbsp;</div>
-           <br />
-                     <div class="clear">&nbsp;</div>
-           <br />
-
-
-           </div>
-
-           <!--contacts-->
-           <div class="section" id="contacts">
-           		<div class="container">
-                    <span class="titles"><img src="images/titles/ContactUs2.png"></span><h2>&nbsp;<a href="#" class="backtop"></a></h2>
-<!--                     <h3>Get in touch with us</h3> -->
-                    <div class="col42_percent fleft">
-                        <div class="contact_form">
-
-
-
-<div id="container">
-Please select from these three options to send us an email or sign up for our Newsletter:<br />
-    <label class="contact_selection"><input type="radio" name="form-toggle" value="general" /><span style="font-size:16px;">General Inquiry</span>
-    </label>
-    <br />
-    <label class="contact_selection"><input type="radio" name="form-toggle" value="employment" /><span style="font-size:16px;">Employment Opportunities</span>
-    </label>
-    <br />
-    <label class="contact_selection"><input type="radio" name="form-toggle" value="ccsfg" /><span style="font-size:16px;">Newsletter Signup</span>
-    </label>
-    <br />
-    <br />
-
-
-
-                           <form id="general-form" action="mailer_PHP_forms/mailergeneral.php" method="post">
-                                <p><label for="name2">Your Name</label><input class="textfield" type="text" name="name" id="name2" value="" /></p>
-                                <p><label for="email2">E-Mail Address</label><input class="textfield" type="text" name="email" id="email2" value="" /></p>
-                                <p><label for="phone">Phone Number</label><input class="textfield" type="text" name="phone" id="phone" value="" /></p>
-                                <p><label for="message">Your Message</label><textarea name="message" id="message" class="textarea"></textarea></p>
-                                <div class="clear"></div>
-                                <input type="submit" class="send_mess" value=" " />
-                            </form>
+       </div>
 
 
 
@@ -1010,227 +201,6 @@ Please select from these three options to send us an email or sign up for our Ne
 
 
 
-                           <form id="employment-form" action="mailer_PHP_forms/maileremployment.php" method="post">
-                                <p><label for="name2">Your Name</label><input class="textfield" type="text" name="name" id="name2" value="" /></p>
-                                <p><label for="email2">E-Mail Address</label><input class="textfield" type="text" name="email" id="email2" value="" /></p>
-                                <p><label for="phone">Phone Number</label><input class="textfield" type="text" name="phone" id="phone" value="" /></p>
-                                <p><label for="message">Your Message</label><textarea name="message" id="message" class="textarea"></textarea></p>
-                                <div class="clear"></div>
-                                <input type="submit" class="send_mess" value=" " />
-                            </form>
-                            
-                            
-                                                        
-                            
-                            
-                            
-                            <form id="ccsfg-form" name="ccsfg" method="post" action="mailer_PHP_forms/mailerCC.php">
-
-<!-- <h4>Registration Form</h4><p>To join our mailing list, please complete the information below and click 'Join My Mailing List'.</p> -->
-
-<!-- ########## Email Address ########## -->
-<label for="EmailAddress">Email Address</label>
-<input type="text" name="EmailAddress" value="" id="EmailAddress" class="textfield" /><br />
-
-<!-- ########## First Name ########## -->
-<label for="FirstName">First Name</label>
-<input type="text" name="FirstName" value="" id="FirstName"  class="textfield"/><br />
-
-<!-- ########## Last Name ########## -->
-<label for="LastName">Last Name</label>
-<input type="text" name="LastName" value="" id="LastName"  class="textfield"/><br />
-
-<!-- ########## Home Phone ########## -->
-<label for="HomePhone">Home Phone</label>
-<input type="text" name="HomePhone" value="" id="HomePhone" class="textfield" /><br />
-
-<!-- ########## Address Line 1 ########## -->
-<label for="Addr1">Address Line 1</label>
-<input type="text" name="Addr1" value="" id="Addr1"  class="textfield"/><br />
-
-<!-- ########## City ########## -->
-<label for="City">City</label>
-<input type="text" name="City" value="" id="City"  class="textfield"/><br />
-
-<!-- ########## State/Province (US/Canada) ########## -->
-<label for="StateCode">State/Province (US/Canada)</label>
-<br />
-<br />
-<select name="StateCode">
-<option value="AL">Alabama</option>
-<option value="AK">Alaska</option>
-<option value="AB">Alberta</option>
-<option value="AZ">Arizona</option>
-<option value="AR">Arkansas</option>
-<option value="AA">Armed Forces Americas</option>
-<option value="AE">Armed Forces Europe</option>
-<option value="AP">Armed Forces Pacific</option>
-<option value="BC">British Columbia</option>
-<option value="CA">California</option>
-<option value="CO">Colorado</option>
-<option value="CT">Connecticut</option>
-<option value="DE">Delaware</option>
-<option value="DC">District of Columbia</option>
-<option value="FL">Florida</option>
-<option value="GA">Georgia</option>
-<option value="HI">Hawaii</option>
-<option value="ID">Idaho</option>
-<option value="IL">Illinois</option>
-<option value="IN">Indiana</option>
-<option value="IA">Iowa</option>
-<option value="KS">Kansas</option>
-<option value="KY">Kentucky</option>
-<option value="LA">Louisiana</option>
-<option value="ME">Maine</option>
-<option value="MD">Maryland</option>
-<option value="MA">Massachusetts</option>
-<option value="MI">Michigan</option>
-<option value="MN">Minnesota</option>
-<option value="MS">Mississippi</option>
-<option value="MO">Missouri</option>
-<option value="MT">Montana</option>
-<option value="NE">Nebraska</option>
-<option value="NV">Nevada</option>
-<option value="NB">New Brunswick</option>
-<option value="NH">New Hampshire</option>
-<option value="NJ">New Jersey</option>
-<option value="NM">New Mexico</option>
-<option value="NY">New York</option>
-<option value="NL">Newfoundland and Labrador</option>
-<option value="NC">North Carolina</option>
-<option value="ND">North Dakota</option>
-<option value="NT">Northwest Territories</option>
-<option value="NS">Nova Scotia</option>
-<option value="NU">Nunavut</option>
-<option value="OH">Ohio</option>
-<option value="OK">Oklahoma</option>
-<option value="ON">Ontario</option>
-<option value="OR">Oregon</option>
-<option value="PA">Pennsylvania</option>
-<option value="PE">Prince Edward Island</option>
-<option value="QC">Quebec</option>
-<option value="RI">Rhode Island</option>
-<option value="SK">Saskatchewan</option>
-<option value="SC">South Carolina</option>
-<option value="SD">South Dakota</option>
-<option value="TN">Tennessee</option>
-<option value="TX">Texas</option>
-<option value="UT">Utah</option>
-<option value="VT">Vermont</option>
-<option value="VA">Virginia</option>
-<option value="WA">Washington</option>
-<option value="WV">West Virginia</option>
-<option value="WI">Wisconsin</option>
-<option value="WY">Wyoming</option>
-<option value="YT">Yukon Territory</option>
-</select><br />
-
-<!-- ########## Contact Lists ########## -->
-<!--
-<h5>Your Interests</h5>
-<p>Please select the areas of interest for which you would like to receive occasional email from us.</p>
--->
-
-<!--
-<input type="checkbox"  checked="checked"  value="Tangierino" name="Lists[]" id="list_Tangierino" />
-<label for="list_Tangierino">Tangierino</label><br />
--->
-
-<!-- <input type="submit" class="send_mess" value=" " /> -->
-
-<input type="submit" name="signup" id="signup" value="" />
-
-
-</form>		
-
-</div>
-
-
-
-
-                        </div>
-                    </div>
-                    <div class="col54_percent fright">
-                        <div class="map">
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=83+Main+Street,+Charlestown+MA&amp;ie=UTF8&amp;hq=&amp;hnear=83+Main+St,+Charlestown,+Massachusetts+02129&amp;gl=us&amp;ll=42.373767,-71.062822&amp;spn=0.023747,0.052443&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /></div>
-<small><a href="http://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=83+Main+Street,+Charlestown+MA&amp;ie=UTF8&amp;hq=&amp;hnear=83+Main+St,+Charlestown,+Massachusetts+02129&amp;gl=us&amp;ll=42.373767,-71.062822&amp;spn=0.023747,0.052443&amp;t=m&amp;z=14&amp;source=embed" target="_blank" style="color:#E17D47;text-align:left">View in Google Maps</a></small>
-                        <div class="col275">
-                            Tangierino is just minutes from downtown Boston and accessible by cab or public transportation - a short walk from the Community College T stop on the Orange Line. <br /><br />
-                            <h4><span style="color:#E17D47; font-size:26px; margin-top:15px;">Gift Cards</span></h4>
-Gift cards of various denominations may be purchased online and are valid for either Tangierino or Koullshi.<br /><br />
-Click on the card below to be taken to our secure online gift card order form.
-
-<!-- <img src="/images/Gift_Card.png" class="item_thumb" /> -->
-
-<div>
-<a href="https://mgd.mercury-gift.com/Tangierino" target="_blank"><img src="images/Gift_Card.png">
-</a></div>
-
-
-
-
-
-<!--
-<br />
-<br />
-	<div class="simpleCart_shelfItem">
-	    <input type="text" value="1" class="item_Quantity">
-	    <span class="item_price">$50.00</span>
-		<a class="item_add" href="javascript:;"> Add to Cart </a>
-	</div>
-	<div class="simpleCart_shelfItem">
-	    <input type="text" value="1" class="item_Quantity">
-	    <span class="item_price">$75.00</span>
-		<a class="item_add" href="javascript:;"> Add to Cart </a>
-	</div>
-	<br />
-	<div class="simpleCart_shelfItem">
-	    <input type="text" value="1" class="item_Quantity">
-	    <span class="item_price">$100.00</span>
-		<a class="item_add" href="javascript:;"> Add to Cart </a>
-	</div>
-	<div class="simpleCart_shelfItem">
-	    <input type="text" value="1" class="item_Quantity">
-	    <span class="item_price">$200.00</span>
-		<a class="item_add" href="javascript:;"> Add to Cart </a>
-	</div>
-	<div>
-	<span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
-<a href="javascript:;" class="simpleCart_checkout">Checkout</a>
-	</div>
--->
-
-	
-	
-
-<!--                             <a href="javascript:{}" class="read" style="display: inline-block; margin-right:20px;" target="_blank"><span style="color:#ffffff;">Purchase</span></a><br /> -->
-                            <div class="socialmedia">
-                            <ul>
-                                <li><a href="https://www.facebook.com/pages/Tangierino/449009528443070"><img src="images/icon1.png" alt="" /></a></li>
-                                <li><a href="https://twitter.com/Tangierino"><img src="images/icon2.png" alt="" /></a></li>
-                                <li><a href="#"><img src="images/icon3.png" alt="" /></a></li>
-                                <li><a href="https://plus.google.com/109526946797225533191/about?hl=en-US"><img src="images/icon4.png" alt="" /></a></li>
-                                <li><a href="http://www.stumbleupon.com/content/2SkzQP"><img src="images/icon5.png" alt="" /></a></li>
-                            </ul>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="col215">
-                            83 Main Street, <br/>Charlestown MA<br />
-                            Telephone:  617-242-6009<br>
-                            FAX: 617-242-6014<br>
-                            E-mail: <a href="mailto:info@tangierino.com">info@tangierino.com</a>
-                        </div>
-                        <div class="clear"></div>
-
-
-                    </div>
-                    <div class="clear"></div>
-                </div>
-           </div>
-           <!--//contacts-->
-
-        </div>
          <!--//main-->
         <!--footer-->
         <div id="footer">
