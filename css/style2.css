@@ -1374,10 +1374,29 @@ and (min-width: 1px) and (max-width:481px){
   margin-right: auto ;
 }
 
+/*
 #ui-datepicker-div {
-    top: 435px !important;
+    top: 676px !important;
 }
+*/
 
 #OT_timeList, #OT_partyList {
     top: -203px !important;
 }
+
+#two {
+    height: 264px !important;
+    width: 416px !important;
+    }
+    
+.cs_leftBtn, .cs_rightBtn {
+    height: 264px !important;
+    }
+    
+.cs_wrapper, .cs_article {
+    background: none repeat scroll 0 0 #000000;
+    }
+    
+    .cs_leftBtn, .cs_rightBtn {
+    z-index: 9998 !important;
+    }
