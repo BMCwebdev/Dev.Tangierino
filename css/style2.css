@@ -702,7 +702,6 @@ margin-left: 40px;
 }
 
 
-
 .contact_form3 label {
 	width:90px;
 	padding-top:9px;
@@ -782,8 +781,10 @@ margin-left: 0px;
 	height:36px;
 	background: url(../images/send2.png) no-repeat left top;
 	border:0;
-	margin:5px 0 20px 210px;
+/* 	margin:5px 0 20px 210px; */
 	cursor:pointer;
+	left:200px !important;
+	top:200px !important;
 	}
 	
 #signup {
@@ -1268,7 +1269,7 @@ padding:1px 2px 3px 4px;
     display: block;
     float: right;
     height: 33px;
-    margin: 10px 0 0;
+/*     margin: 10px 0 0; */
 	border-radius: 0 0 0 0;
 	box-shadow: none;
 	background-color: #000000;
@@ -1389,6 +1390,11 @@ and (min-width: 1px) and (max-width:481px){
     width: 416px !important;
     }
     
+#three {
+	height: 450px !important;
+	width: 412px !important;
+    }
+    
 .cs_leftBtn, .cs_rightBtn {
     height: 264px !important;
     }
@@ -1400,3 +1406,28 @@ and (min-width: 1px) and (max-width:481px){
     .cs_leftBtn, .cs_rightBtn {
     z-index: 9998 !important;
     }
+    .functions{
+  position: absolute;
+    right: 145px;
+        }
+        
+        .contact_form3 {
+/*     margin-left: 40px; */
+    padding-bottom: 27px;
+    width: 475px;
+    }
+
+.send_mess {
+	width:70px;
+	height:36px;
+	background: url(../images/send2.png) no-repeat left top;
+	border:0;
+/* 	margin:5px 0 20px 210px; */
+	cursor:pointer;
+	left:200px !important;
+	top:200px !important;
+	}
+	
+	#privatebutton {
+		left:200px;
+	}
