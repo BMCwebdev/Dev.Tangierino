@@ -1032,7 +1032,11 @@ background-image: -webkit-gradient(
 }
 */
 
+/*
 #nav {padding:33px 0 0 0;
+}
+*/
+#nav {padding:0px 0 0 0;
 }
 #nav li {float:left;
 }
@@ -1396,7 +1400,7 @@ and (min-width: 1px) and (max-width:481px){
     }
     
 .cs_leftBtn, .cs_rightBtn {
-    height: 264px !important;
+    height: 385px !important;
     }
     
 .cs_wrapper, .cs_article {

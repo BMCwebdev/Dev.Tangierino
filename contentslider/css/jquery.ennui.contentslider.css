@@ -123,6 +123,6 @@
 .cs_leftBtn img, .cs_rightBtn img {
   border:0;
   position:relative;
-  top:200px;
+  top:175px !important;
   margin:0;
 }

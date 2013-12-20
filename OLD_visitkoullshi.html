@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<link href='http://fonts.googleapis.com/css?family=Della+Respira|Average+Sans' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.1.min.js"></script>
+
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script>
+	   $('a.backtop').click(function(){
+			 $('html, body').animate({scrollTop: '0px'}, 1000);
+			 return false;
+	   });
+       $(document).ready(function(){
+
+			//Testimonials scroll
+			$('.flexslider').flexslider({
+				directionNav: false,
+				controlNav: true
+			});
+
+			if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod') {
+				$("#header").css("position", "static");
+			};
+
+			$("iframe").each(function(){
+				var ifr_source = $(this).attr('src');
+				var wmode = "wmode=transparent";
+				if(ifr_source.indexOf('?') != -1) {
+				var getQString = ifr_source.split('?');
+				var oldString = getQString[1];
+				var newString = getQString[0];
+				$(this).attr('src',newString+'?'+wmode+'&'+oldString);
+				}
+				else $(this).attr('src',ifr_source+'?'+wmode);
+			});
+
+       });
+    </script>
+
+
+
+<style>
+html
+{
+    overflow: scroll;
+}
+
+	body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+
+	#loading {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		}
+
+	#calendar {
+		width: 900px;
+		margin: 0 auto;
+		}
+
+</style>
+
+<meta charset="utf-8">
+<title>Tangierino</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+
+
+	<div class="wrapper">
+    	<!--header-->
+        <div id="header">
+        	<div class="container">
+                <div id="logo">
+                    <a href="index.html"><img src="images/headerimage2.png" width=900px;></a>
+                </div>
+                <br class="tablet-break"/><br class="tablet-break"/><br class="tablet-break"/>
+                <div class="fleft">
+                    <ul id="nav">
+                        <li><a href="about.html" class="glow">About</a></li>
+                        <li><a href="menus.html" class="glow">Cuisine</a></li>
+                        <li><a href="calendar2.html" class="glow">Entertainment</a></li>
+<!--
+							<br class="smallscreen-break" />
+							<br class="smallscreen-break" />
+							<br class="smallscreen-break" />
+-->
+                        <li><a href="privatefunctions.html" class="glow">Private Functions</a></li>
+                        <li><a href="gallery_page/gallery.html" class="glow">Media Gallery</a></li>
+                        <li class="current"><a href="visitkoullshi.html" class="glow">Koullshi</a></li>
+                        <li><a href="giftcards-contact.html" class="glow">Contact/Gift Cards</a></li>
+<!--
+                        <li><a href="#services" class="glow">Reservations</a></li>
+                        <li><a href="#services" class="glow">Reservations</a></li>
+                        <span id="giftcardnavsmall"><li><a href="#contacts" class="glow2">GC &amp; Contact</a></li></span>
+                        <span id="giftcardnav"><li><a href="#contacts" class="glow2">Gift Cards / Contact</a></li></span>
+-->
+                    </ul>
+                </div>
+        	</div>
+        </div>
+	</div>
+<div class="clear"></div>          
+
+           <!--about-->
+           <div class="section" id="about">
+           <div style="height:225px;">&nbsp;</div>
+
+           		<div class="container">
+           		
+           		
+<!--                     <span class="titles"><img src="images/titles/About.png"></span><h2>&nbsp;</h2> -->
+                <h3 style="text-align: left;">&nbsp;Visit Koullshi</h3>
+                    <span class="titles"></span><h2 style="line-height: 1px;">&nbsp;</h2>
+
+<div style="height:10px;">&nbsp;</div>
+
+<div>
+		<p>Voted &ldquo;Boston&rsquo;s Hottest Night Spot,&rdquo; Koullshi is without question, a one-of-a-​kind exotic lounge where the most elegant, floral and fruity hookah and over 70 ​premium cigars are enjoyed in a vibrant, 5,000 square foot lounge created by ​excavating deep into the earth. A state-of-the-art air exchange system keeps ​the air clean and fresh for relaxing and enjoying 7 flat screens where something ​is always on and Koullshi offers a full bar and both private and intimate spaces ​and a separate cigar lounge to cater to a wide range of pleasures.</p>
+		
+		<p style="text-align:center">Click the image below to be taken to Koullshi.com</p>
+</div>
+
+<div class="center">
+<a href="http://www.koullshi.com" target="_blank"><img src="images/tangierinowebsite.png" style="border-style:solid; border-width:5px; border-color:#70234C" /></a>
+</div>
+
+
+           		</div>
+           		</div>
+           
+                        
+           <!--//about-->
+
+
+
+
+        <!--footer-->
+        <div id="footer">
+        	<div class="container" style="padding:0px;">
+<div id="opentable"><script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=2996&restref=2996&bgcolor=E17D47&titlecolor=FFFFFF&subtitlecolor=none&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_black.png&otlink=FFFFFF&icon=dark&mode=wide&hover=1"></script><a href="http://www.opentable.com/tangierino-reservations-charlestown?rtype=ism&restref=2996" class="OT_ExtLink"><span style="color:#CE6C37">Tangierino Reservations</a></div>
+            </div>
+        </div>
+		<!--//footer-->
+
+
+</div>
+</body>
+</html>
