@@ -204,11 +204,50 @@ a.aimersoftDeleteButton {
 #myultimatebem div a:hover {
 	background: rgb(135,10,10) !important;
 	color: #FFFFFF !important
-}</style></head>
+}
+
+
+a {
+	display:none;
+}
+
+</style>
+
+
+
+
+
+
+    <script src="../music/assets/audioplayerengine/jquery.js"></script>
+    <script src="../music/assets/audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="../music/assets/audioplayerengine/initaudioplayer-1.css">
+    <script src="../music/assets/audioplayerengine/initaudioplayer-1.js"></script>
+
+
+
+
+
+
+</head>
+
+
 
 <body>
 
 <div class="wrapper2">
+    <!-- Insert to your webpage where you want to display the audio player -->
+    <div id="amazingaudioplayer-1" style="display:block;position:relative;width:320px;height:auto;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="" data-title="The_Letter" data-album="" data-info="" data-image="" data-duration="196">
+                <div class="amazingaudioplayer-source" data-src="../music/assets/audios/The_Letter_Smaller.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="Darren DeRidder" data-title="Blue Browne" data-album="Nagoya" data-info="" data-image="" data-duration="92">
+                <div class="amazingaudioplayer-source" data-src="../music/assets/audios/BlueBrowne.mp3" data-type="audio/mpeg" />
+            </li>
+        </ul>
+    </div>
+    <!-- End of body section HTML codes -->
+
   <img alt="" src="landing_page_assets/landingbackground.png" id="bgimg" style="width: 100%; margin-top:-75px;" />
 </div>
 
@@ -223,6 +262,6 @@ a.aimersoftDeleteButton {
 		<a href="http://www.koullshi.com" target="_blank" class="light-img"><img src="landing_page_assets/koullshilanding.png" alt=""></a>
 	</div>
 
-<embed height="0" width="0" loop="true" src="landing_page_assets/The_Letter_Smaller.mp3">
+<!-- <embed height="0" width="0" loop="true" src="landing_page_assets/The_Letter_Smaller.mp3"> -->
 
 </body></html>

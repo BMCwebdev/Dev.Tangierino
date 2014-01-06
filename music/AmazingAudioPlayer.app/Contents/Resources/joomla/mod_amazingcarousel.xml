@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0">
+    <!-- Name of the Module -->
+        <name>Amazing Carousel ID %CAROUSELID%</name> 
+ 
+    <!-- Name of the Author -->
+        <author>Magic Hills Pty Ltd</author> 
+ 
+    <!-- Version Date of the Module -->
+        <creationDate>2013-04-29</creationDate> 
+ 
+    <!-- Copyright information -->
+        <copyright>All rights reserved by Magic Hills Pty Ltd 2013.</copyright> 
+ 
+    <!-- License Information -->
+        <license>All rights reserved by Magic Hills Pty Ltd</license> 
+ 
+    <!-- Author's email address -->
+        <authorEmail>support@magichtml.com</authorEmail> 
+ 
+    <!-- Author's website -->
+        <authorUrl>http://amazingcarousel.com</authorUrl> 
+ 
+    <!-- Module version number -->
+        <version>1.0</version> 
+ 
+    <!-- Description of what the module does -->
+        <description>Amazing Carousel - Create Beautiful jQuery Image and Video Carousel</description>
+ 
+    <!-- Listing of all files that should be installed for the module to function -->
+        <files>
+        <!-- The "module" attribute signifies that this is the main controller file -->
+                <filename module="mod_amazingcarousel_%CAROUSELID%">mod_amazingcarousel_%CAROUSELID%.php</filename>
+                <filename>index.html</filename>
+                <folder>tmpl/</folder>
+        </files>
+ 
+    <!-- Optional parameters -->
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="is_second" type="radio" label="Is the Carousel second or after on the webpage? (Only change this when you have multiple Carousels on one webpage)" description="" default="0">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,332 @@
+<project>
+  <skin>
+    <volumeimagewidth>24</volumeimagewidth>
+    <barbackgroundimage />
+    <imagewidth>100</imagewidth>
+    <showimage>False</showimage>
+    <showtime>True</showtime>
+    <titleinbarwidth>80</titleinbarwidth>
+    <showprogress>True</showprogress>
+    <random>False</random>
+    <titleformat>%TITLE%</titleformat>
+    <height>600</height>
+    <prevnextimage>prevnext-24-24-1.png</prevnextimage>
+    <showinfo>False</showinfo>
+    <imageheight>100</imageheight>
+    <skin>BarWhiteTitle</skin>
+    <loopimage>loop-24-24-2.png</loopimage>
+    <loopimagewidth>24</loopimagewidth>
+    <volumebarheight>80</volumebarheight>
+    <prevnextimageheight>24</prevnextimageheight>
+    <infoformat>By %ARTIST% %ALBUM%&lt;br /&gt;%INFO%</infoformat>
+    <showstop>False</showstop>
+    <showvolumebar>True</showvolumebar>
+    <width>420</width>
+    <showtitleinbar>True</showtitleinbar>
+    <showloop>True</showloop>
+    <volumeimage>volume-24-24-2.png</volumeimage>
+    <playpauseimagewidth>24</playpauseimagewidth>
+    <loopimageheight>24</loopimageheight>
+    <tracklistitemformat>%ID%. %TITLE% &lt;span style='float:right;'&gt;%DURATION%&lt;/span&gt;</tracklistitemformat>
+    <css>@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oswald);
+
+#amazingaudioplayer-AUDIOPLAYERID {
+}
+
+#amazingaudioplayer-AUDIOPLAYERID div {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;   
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-image {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 4px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+	-webkit-border-radius: 4px;
+    	-moz-border-radius: 4px;
+    	border-radius: 4px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-image-clear {
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-text {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 4px 12px;
+	height: 100px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-text-clear {
+	clear: both;
+	height: 8px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-title {
+	display: block;
+	color: #333;
+	font-family: "Oswald",Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-title-clear {
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-info {
+	display: block;
+	display: block;
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-info-clear {
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-bar {
+	background-color: #f6f6f6;
+	margin: 4px;
+	border: 1px solid #ffffff;
+	background-image: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); 
+	background-image: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); 
+	background-image: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); 
+	background-image: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+	background-image: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-bar-buttons-clear {
+	clear: both;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-bar-clear {
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-bar-title {
+	position: relative;
+	float: left;
+	color: #444444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0 8px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-playpause {
+	position: relative;
+	float: left;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-play {
+	position: relative;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-pause {
+	position: relative;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-stop {
+	position: relative;
+	float: left;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-prev {
+	position: relative;
+	float: left;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-next {
+	position: relative;
+	float: left;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-loop {
+	position: relative;
+	float: left;
+	margin: 0 2px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-progress {
+	position: relative;
+	background-color: #706d6d;
+	margin: 8px 4px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-progress-loaded {
+	background-color: #999;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-progress-played {
+	background-color: #73b3c3;
+	background-image: -ms-linear-gradient(top, #90d9e4 0%, #368fae 100%);
+	background-image: -moz-linear-gradient(top, #90d9e4 0%, #368fae 100%);
+	background-image: -o-linear-gradient(top, #90d9e4 0%, #368fae 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #90d9e4), color-stop(1, #368fae));
+	background-image: -webkit-linear-gradient(top, #90d9e4 0%, #368fae 100%); 
+	background-image: linear-gradient(to bottom, #90d9e4 0%, #368fae 100%);
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-time {
+	position: relative;
+	float: right;
+	color: #555555;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+	line-height: 24px;
+	margin: 0 4px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-volume {
+	position: relative;
+	float: right;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-volume-bar {
+	margin-bottom: 2px;
+	background-color: #e1e1e1;
+	background-image: -ms-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -moz-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -o-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f6f6f6), color-stop(1, #e1e1e1));
+	background-image: -webkit-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: linear-gradient(to bottom, #f6f6f6 0%, #e1e1e1 100%);	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-volume-bar-adjust {
+	background-color: #555;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-volume-bar-adjust-active {
+	background-color: #4ba4bd;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracklist {
+	display: block;
+	position: relative;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracklist-container {
+	display: block;
+	position: relative;
+	-webkit-border-radius: 2px;
+   	 -moz-border-radius: 2px;
+    	border-radius: 2px;
+	margin: 4px;
+	padding: 24px 12px 12px;
+	background-color: #e1e1e1;
+	border: 1px solid #f6f6f6;
+	background-image: -ms-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -moz-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -o-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f6f6f6), color-stop(1, #e1e1e1));
+	background-image: -webkit-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+	background-image: linear-gradient(to bottom, #f6f6f6 0%, #e1e1e1 100%);
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracks-wrapper {
+	position: relative;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracks {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-track-item {
+	position: relative;
+	cursor: pointer;
+	color: #666;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-track-item-active {
+	cursor: pointer;
+	color: #222;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-track-item a {
+	color: #666;
+    text-decoration: none;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-track-item-active a {
+	color: #222;
+    text-decoration: none;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-track-item-duration {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracklist-arrow-prev {
+	position: absolute;
+	top: 2px;
+	right: 24px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracklist-arrow-next {
+	position: absolute;
+	top: 2px;
+	right: 6px;
+}
+
+#amazingaudioplayer-AUDIOPLAYERID .amazingaudioplayer-tracklist-clear {
+	clear: both;
+}</css>
+    <prevnextimagewidth>24</prevnextimagewidth>
+    <tracklistarrowimage>tracklistarrow-16-16-1.png</tracklistarrowimage>
+    <playpauseimageheight>24</playpauseimageheight>
+    <showbackgroundimage>False</showbackgroundimage>
+    <progresswidthmode>auto</progresswidthmode>
+    <stopimage>stop-24-24-1.png</stopimage>
+    <showvolume>True</showvolume>
+    <playpauseimage>playpause-24-24-1.png</playpauseimage>
+    <showprevnext>True</showprevnext>
+    <backgroundimage />
+    <volumebarpadding>8</volumebarpadding>
+    <progressheight>8</progressheight>
+    <showtracklistbackgroundimage>False</showtracklistbackgroundimage>
+    <progresswidth>96</progresswidth>
+    <showtitle>False</showtitle>
+    <tracklistarrowimageheight>16</tracklistarrowimageheight>
+    <heightmode>auto</heightmode>
+    <titleinbarformat>%TITLE%</titleinbarformat>
+    <showtracklist>False</showtracklist>
+    <stopimageheight>24</stopimageheight>
+    <volumeimageheight>24</volumeimageheight>
+    <stopimagewidth>24</stopimagewidth>
+    <tracklistbackgroundimage />
+    <showbarbackgroundimage>False</showbarbackgroundimage>
+    <tracklistwidth>320</tracklistwidth>
+    <tracklistarrowimagewidth>16</tracklistarrowimagewidth>
+    <timeformat>%CURRENT% / %DURATION%</timeformat>
+    <autoplay>False</autoplay>
+    <loop>1</loop>
+    <tracklistitem>10</tracklistitem>
+  </skin>
+</project>

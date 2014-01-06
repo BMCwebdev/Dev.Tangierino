@@ -1,0 +1,9 @@
+; Amazing Carousel Drupal Module Version 1.6
+; http://amazingcarousel.com, 2013 Magic Hills Pty Ltd All Rights Reserved
+
+name = amazingcarousel%CAROUSELID%
+description = Amazing Carousel %CAROUSELID% Module
+package = Amazing Carousel Modules
+core = %DRUPALVERSION%.x
+ 
+files[] = amazingcarousel%CAROUSELID%.module

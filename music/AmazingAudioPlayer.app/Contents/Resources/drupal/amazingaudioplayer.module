@@ -1,0 +1,36 @@
+<?php
+	function amazingaudioplayer%AUDIOPLAYERID%_menu(){
+	  $items = array();
+ 
+	  $items['amazingaudioplayer%AUDIOPLAYERID%'] = array(
+	    'title'            => t('%AUDIOPLAYERNAME%'),
+	    'page callback'    => 'amazingaudioplayer%AUDIOPLAYERID%_output',
+	    'access arguments' => array('access content'),
+	  );
+	  
+	  return $items;
+	}
+ 
+	function amazingaudioplayer%AUDIOPLAYERID%_init(){
+		
+		$drupal_version = %DRUPALVERSION%;
+		
+		$module_path = drupal_get_path('module', 'amazingaudioplayer%AUDIOPLAYERID%');
+		drupal_add_css( $module_path . '/audioplayerengine/initaudioplayer-%AUDIOPLAYERID%.css');
+		
+		if ( $drupal_version == '7' )
+		{
+			$module_path = base_path() . $module_path;
+		}		
+		drupal_add_js( $module_path . '/audioplayerengine/amazingaudioplayer.js');
+		drupal_add_js( $module_path . '/audioplayerengine/initaudioplayer-%AUDIOPLAYERID%.js');
+	}
+	
+	function amazingaudioplayer%AUDIOPLAYERID%_output() {
+		
+		$module_path = base_path() . drupal_get_path('module', 'amazingaudioplayer%AUDIOPLAYERID%');
+		$html_codes = '%AUDIOPLAYERCODES%';															
+		
+		return $html_codes;
+	}
+?>

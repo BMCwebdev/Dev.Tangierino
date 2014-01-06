@@ -1,0 +1,36 @@
+<?php
+	function amazingcarousel%CAROUSELID%_menu(){
+	  $items = array();
+ 
+	  $items['amazingcarousel%CAROUSELID%'] = array(
+	    'title'            => t('%CAROUSELNAME%'),
+	    'page callback'    => 'amazingcarousel%CAROUSELID%_output',
+	    'access arguments' => array('access content'),
+	  );
+	  
+	  return $items;
+	}
+ 
+	function amazingcarousel%CAROUSELID%_init(){
+		
+		$drupal_version = %DRUPALVERSION%;
+		
+		$module_path = drupal_get_path('module', 'amazingcarousel%CAROUSELID%');
+		drupal_add_css( $module_path . '/carouselengine/initcarousel-%CAROUSELID%.css');
+		
+		if ( $drupal_version == '7' )
+		{
+			$module_path = base_path() . $module_path;
+		}		
+		drupal_add_js( $module_path . '/carouselengine/amazingcarousel.js');
+		drupal_add_js( $module_path . '/carouselengine/initcarousel-%CAROUSELID%.js');
+	}
+	
+	function amazingcarousel%CAROUSELID%_output() {
+		
+		$module_path = base_path() . drupal_get_path('module', 'amazingcarousel%CAROUSELID%');
+		$html_codes = '%CAROUSELCODES%';															
+		
+		return $html_codes;
+	}
+?>

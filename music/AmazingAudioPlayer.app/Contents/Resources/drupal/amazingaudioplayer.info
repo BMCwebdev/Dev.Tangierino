@@ -1,0 +1,9 @@
+; Amazing Audio Player Drupal Module Version 1.6
+; http://amazingaudioplayer.com, 2013 Magic Hills Pty Ltd All Rights Reserved
+
+name = amazingaudioplayer%AUDIOPLAYERID%
+description = Amazing Audio Player %AUDIOPLAYERID% Module
+package = Amazing Audio Player Modules
+core = %DRUPALVERSION%.x
+ 
+files[] = amazingaudioplayer%AUDIOPLAYERID%.module
