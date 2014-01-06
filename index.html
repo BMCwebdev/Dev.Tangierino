@@ -229,40 +229,8 @@ html
 				time: 2500
             });
 
-            // Menu
-            $('#nav').onePageNav({
-                begin: function() {
-                  console.log('start')
-                },
-                end: function() {
-                  console.log('stop')
-                }
-            });
-
 			//Pretty Photo
 			$("a[rel^='prettyPhoto']").prettyPhoto();
-
-			//Testimonials scroll
-			$('.flexslider').flexslider({
-				directionNav: false,
-				controlNav: true
-			});
-
-			if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod') {
-				$("#header").css("position", "static");
-			};
-
-			$("iframe").each(function(){
-				var ifr_source = $(this).attr('src');
-				var wmode = "wmode=transparent";
-				if(ifr_source.indexOf('?') != -1) {
-				var getQString = ifr_source.split('?');
-				var oldString = getQString[1];
-				var newString = getQString[0];
-				$(this).attr('src',newString+'?'+wmode+'&'+oldString);
-				}
-				else $(this).attr('src',ifr_source+'?'+wmode);
-			});
 
        });
     </script>
