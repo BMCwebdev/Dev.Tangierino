@@ -1397,7 +1397,7 @@ and (min-width: 1px) and (max-width:481px){
 #three {
 	height: 307px !important;
 	width: 458px !important;
-    margin-top: 10px;
+    margin-top: -20px;
     }
     
 .cs_leftBtn, .cs_rightBtn {
